@@ -1,0 +1,871 @@
+2025-10-07 15:08:50,651 - Data_Preprocessing - INFO - Data Preprocessing module initialized.
+2025-10-07 15:08:51,354 - Data_Preprocessing - INFO - Data loaded successfully from C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\agmarknet_data new.xlsx
+2025-10-07 15:08:51,354 - Data_Preprocessing - INFO - Dataset shape: (3483, 10)
+2025-10-07 15:08:51,355 - Data_Preprocessing - INFO - Missing values in each column:
+0    1
+1    1
+2    1
+3    1
+4    1
+5    1
+6    1
+7    1
+8    1
+9    1
+dtype: int64
+2025-10-07 15:14:23,481 - Data_Preprocessing - INFO - Data Preprocessing module initialized.
+2025-10-07 15:14:24,131 - Data_Preprocessing - INFO - Data loaded successfully from C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\agmarknet_data new.xlsx
+2025-10-07 15:14:24,131 - Data_Preprocessing - INFO - Dataset shape: (3483, 10)
+2025-10-07 15:14:24,132 - Data_Preprocessing - INFO - Checking for missing values in each column:
+2025-10-07 15:14:24,132 - Data_Preprocessing - INFO - Missing values found:Removing rows with missing values.
+2025-10-07 15:14:24,136 - Data_Preprocessing - INFO - Dropped rows with missing values.
+2025-10-07 15:24:34,322 - Data_Preprocessing - INFO - Data Preprocessing module initialized.
+2025-10-07 15:24:34,995 - Data_Preprocessing - INFO - Data loaded successfully from C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\agmarknet_data new.xlsx
+2025-10-07 15:24:34,995 - Data_Preprocessing - INFO - Dataset shape: (3483, 10)
+2025-10-07 15:24:34,997 - Data_Preprocessing - INFO - Checking for missing values in each column:
+2025-10-07 15:24:34,997 - Data_Preprocessing - INFO - Missing values found:Removing rows with missing values.
+2025-10-07 15:24:35,001 - Data_Preprocessing - INFO - Dropped rows with missing values.
+2025-10-07 15:24:35,004 - Data_Preprocessing - INFO - Current missing values after dropping: 0    0
+1    0
+2    0
+3    0
+4    0
+5    0
+6    0
+7    0
+8    0
+9    0
+dtype: int64
+2025-10-07 15:45:36,159 - Data_Preprocessing - INFO - Data Preprocessing module initialized.
+2025-10-07 15:45:36,737 - Data_Preprocessing - INFO - Data loaded successfully from C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\agmarknet_data new.xlsx
+2025-10-07 15:45:36,737 - Data_Preprocessing - INFO - Dataset shape: (3483, 10)
+2025-10-07 15:45:36,738 - Data_Preprocessing - INFO - Checking for missing values in each column:
+2025-10-07 15:45:36,739 - Data_Preprocessing - INFO - Missing values found:Removing rows with missing values.
+2025-10-07 15:45:36,739 - Data_Preprocessing - INFO - Dropped rows with missing values.
+2025-10-07 15:45:36,741 - Data_Preprocessing - INFO - Current missing values after dropping: 0    0
+1    0
+2    0
+3    0
+4    0
+5    0
+6    0
+7    0
+8    0
+9    0
+dtype: int64
+2025-10-07 15:45:36,749 - Data_Preprocessing - INFO - No duplicate rows found.
+2025-10-07 15:45:36,750 - Data_Preprocessing - INFO - Found columns : Index(['Sl.No', 'District Name', 'Market Name', 'Commodity', 'Variety',
+       'Grade', 'Min Price', 'Max Price', 'Avg Price', 'Date'],
+      dtype='object')
+2025-10-07 15:45:36,766 - Data_Preprocessing - INFO - Dataset statistics:
+             Sl.No     Min Price     Max Price     Avg Price
+count  3482.000000   3482.000000   3482.000000   3482.000000
+mean   1741.500000   2612.919299   4382.889431   3501.517231
+std    1005.311146   1814.796003   2811.198316   2109.383353
+min       1.000000    160.000000    716.000000    625.000000
+25%     871.250000   1300.000000   2200.000000   1850.000000
+50%    1741.500000   2000.000000   4000.000000   2920.000000
+75%    2611.750000   3600.000000   5800.000000   4650.000000
+max    3482.000000  11000.000000  60000.000000  14000.000000
+2025-10-07 15:45:36,766 - Data_Preprocessing - INFO - Checking the trend and seasonlit
+2025-10-07 15:49:24,299 - Data_Preprocessing - INFO - Data Preprocessing module initialized.
+2025-10-07 15:49:24,884 - Data_Preprocessing - INFO - Data loaded successfully from C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\agmarknet_data new.xlsx
+2025-10-07 15:49:24,884 - Data_Preprocessing - INFO - Dataset shape: (3483, 10)
+2025-10-07 15:49:24,884 - Data_Preprocessing - INFO - Checking for missing values in each column:
+2025-10-07 15:49:24,886 - Data_Preprocessing - INFO - Missing values found:Removing rows with missing values.
+2025-10-07 15:49:24,887 - Data_Preprocessing - INFO - Dropped rows with missing values.
+2025-10-07 15:49:24,888 - Data_Preprocessing - INFO - Current missing values after dropping: 0    0
+1    0
+2    0
+3    0
+4    0
+5    0
+6    0
+7    0
+8    0
+9    0
+dtype: int64
+2025-10-07 15:49:24,890 - Data_Preprocessing - INFO - No duplicate rows found.
+2025-10-07 15:49:24,891 - Data_Preprocessing - INFO - Found columns : 
+Index(['Sl.No', 'District Name', 'Market Name', 'Commodity', 'Variety',
+       'Grade', 'Min Price', 'Max Price', 'Avg Price', 'Date'],
+      dtype='object')
+2025-10-07 15:49:24,902 - Data_Preprocessing - INFO - Dataset statistics:
+             Sl.No     Min Price     Max Price     Avg Price
+count  3482.000000   3482.000000   3482.000000   3482.000000
+mean   1741.500000   2612.919299   4382.889431   3501.517231
+std    1005.311146   1814.796003   2811.198316   2109.383353
+min       1.000000    160.000000    716.000000    625.000000
+25%     871.250000   1300.000000   2200.000000   1850.000000
+50%    1741.500000   2000.000000   4000.000000   2920.000000
+75%    2611.750000   3600.000000   5800.000000   4650.000000
+max    3482.000000  11000.000000  60000.000000  14000.000000
+2025-10-07 15:49:24,902 - Data_Preprocessing - INFO - Checking the trend and seasonlit
+2025-10-07 15:56:07,921 - Data_Preprocessing - INFO - Data Preprocessing module initialized.
+2025-10-07 15:56:08,556 - Data_Preprocessing - INFO - Data loaded successfully from C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\agmarknet_data new.xlsx
+2025-10-07 15:56:08,557 - Data_Preprocessing - INFO - Dataset shape: (3483, 10)
+2025-10-07 15:56:08,558 - Data_Preprocessing - INFO - Checking for missing values in each column:
+2025-10-07 15:56:08,558 - Data_Preprocessing - INFO - Missing values found:Removing rows with missing values.
+2025-10-07 15:56:08,559 - Data_Preprocessing - INFO - Dropped rows with missing values.
+2025-10-07 15:56:08,560 - Data_Preprocessing - INFO - Current missing values after dropping: 0    0
+1    0
+2    0
+3    0
+4    0
+5    0
+6    0
+7    0
+8    0
+9    0
+dtype: int64
+2025-10-07 15:56:08,562 - Data_Preprocessing - INFO - No duplicate rows found.
+2025-10-07 15:56:08,563 - Data_Preprocessing - INFO - Found columns : 
+Index(['Sl.No', 'District Name', 'Market Name', 'Commodity', 'Variety',
+       'Grade', 'Min Price', 'Max Price', 'Avg Price', 'Date'],
+      dtype='object')
+2025-10-07 15:56:26,713 - Data_Preprocessing - INFO - Checking the trend and seasonlity of the data
+2025-10-07 15:57:15,514 - Data_Preprocessing - INFO - Data Preprocessing module initialized.
+2025-10-07 15:57:16,132 - Data_Preprocessing - INFO - Data loaded successfully from C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\agmarknet_data new.xlsx
+2025-10-07 15:57:16,133 - Data_Preprocessing - INFO - Dataset shape: (3483, 10)
+2025-10-07 15:57:16,134 - Data_Preprocessing - INFO - Checking for missing values in each column:
+2025-10-07 15:57:16,134 - Data_Preprocessing - INFO - Missing values found:Removing rows with missing values.
+2025-10-07 15:57:16,135 - Data_Preprocessing - INFO - Dropped rows with missing values.
+2025-10-07 15:57:16,137 - Data_Preprocessing - INFO - Current missing values after dropping: 0    0
+1    0
+2    0
+3    0
+4    0
+5    0
+6    0
+7    0
+8    0
+9    0
+dtype: int64
+2025-10-07 15:57:16,139 - Data_Preprocessing - INFO - No duplicate rows found.
+2025-10-07 15:57:16,139 - Data_Preprocessing - INFO - Found columns : 
+Index(['Sl.No', 'District Name', 'Market Name', 'Commodity', 'Variety',
+       'Grade', 'Min Price', 'Max Price', 'Avg Price', 'Date'],
+      dtype='object')
+2025-10-07 15:57:42,907 - Data_Preprocessing - INFO - Checking the trend and seasonlity of the data
+2025-10-07 16:20:26,907 - Data_Preprocessing - INFO - Data Preprocessing module initialized.
+2025-10-07 16:20:27,501 - Data_Preprocessing - INFO - Data loaded successfully from C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\agmarknet_data new.xlsx
+2025-10-07 16:20:27,502 - Data_Preprocessing - INFO - Dataset shape: (3483, 10)
+2025-10-07 16:20:27,503 - Data_Preprocessing - INFO - Checking for missing values in each column:
+2025-10-07 16:20:27,504 - Data_Preprocessing - INFO - Missing values found:Removing rows with missing values.
+2025-10-07 16:20:27,505 - Data_Preprocessing - INFO - Dropped rows with missing values.
+2025-10-07 16:20:27,506 - Data_Preprocessing - INFO - Current missing values after dropping: 0    0
+1    0
+2    0
+3    0
+4    0
+5    0
+6    0
+7    0
+8    0
+9    0
+dtype: int64
+2025-10-07 16:20:27,508 - Data_Preprocessing - INFO - No duplicate rows found.
+2025-10-07 16:20:27,508 - Data_Preprocessing - INFO - Found columns : 
+Index(['Sl.No', 'District Name', 'Market Name', 'Commodity', 'Variety',
+       'Grade', 'Min Price', 'Max Price', 'Avg Price', 'Date'],
+      dtype='object')
+2025-10-07 16:21:43,916 - Data_Preprocessing - INFO - Data Preprocessing module initialized.
+2025-10-07 16:21:44,519 - Data_Preprocessing - INFO - Data loaded successfully from C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\agmarknet_data new.xlsx
+2025-10-07 16:21:44,520 - Data_Preprocessing - INFO - Dataset shape: (3483, 10)
+2025-10-07 16:21:44,522 - Data_Preprocessing - INFO - Checking for missing values in each column:
+2025-10-07 16:21:44,522 - Data_Preprocessing - INFO - Missing values found:Removing rows with missing values.
+2025-10-07 16:21:44,523 - Data_Preprocessing - INFO - Dropped rows with missing values.
+2025-10-07 16:21:44,524 - Data_Preprocessing - INFO - Current missing values after dropping: 0    0
+1    0
+2    0
+3    0
+4    0
+5    0
+6    0
+7    0
+8    0
+9    0
+dtype: int64
+2025-10-07 16:21:44,525 - Data_Preprocessing - INFO - No duplicate rows found.
+2025-10-07 16:21:44,527 - Data_Preprocessing - INFO - Found columns : 
+Index(['Sl.No', 'District Name', 'Market Name', 'Commodity', 'Variety',
+       'Grade', 'Min Price', 'Max Price', 'Avg Price', 'Date'],
+      dtype='object')
+2025-10-07 16:27:51,431 - Data_Preprocessing - INFO - Data Preprocessing module initialized.
+2025-10-07 16:27:52,035 - Data_Preprocessing - INFO - Data loaded successfully from C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\agmarknet_data new.xlsx
+2025-10-07 16:27:52,036 - Data_Preprocessing - INFO - Dataset shape: (3483, 10)
+2025-10-07 16:27:52,037 - Data_Preprocessing - INFO - Checking for missing values in each column:
+2025-10-07 16:27:52,038 - Data_Preprocessing - INFO - Missing values found:Removing rows with missing values.
+2025-10-07 16:27:52,039 - Data_Preprocessing - INFO - Dropped rows with missing values.
+2025-10-07 16:27:52,041 - Data_Preprocessing - INFO - Current missing values after dropping: 0    0
+1    0
+2    0
+3    0
+4    0
+5    0
+6    0
+7    0
+8    0
+9    0
+dtype: int64
+2025-10-07 16:27:52,043 - Data_Preprocessing - INFO - No duplicate rows found.
+2025-10-07 16:27:52,043 - Data_Preprocessing - INFO - Found columns : 
+Index(['Sl.No', 'District Name', 'Market Name', 'Commodity', 'Variety',
+       'Grade', 'Min Price', 'Max Price', 'Avg Price', 'Date'],
+      dtype='object')
+2025-10-07 16:27:57,001 - Data_Preprocessing - INFO - Data after selecting 'FAQ' grade and 'Avg Price':
+             Price
+Date              
+2013-04-17  5500.0
+2023-02-06  1900.0
+2013-02-25  2830.0
+2016-08-12  2920.0
+2012-05-18   750.0
+2025-10-07 16:28:32,387 - Data_Preprocessing - INFO - Data Preprocessing module initialized.
+2025-10-07 16:28:33,450 - Data_Preprocessing - INFO - Data loaded successfully from C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\agmarknet_data new.xlsx
+2025-10-07 16:28:33,450 - Data_Preprocessing - INFO - Dataset shape: (3483, 10)
+2025-10-07 16:28:33,451 - Data_Preprocessing - INFO - Checking for missing values in each column:
+2025-10-07 16:28:33,451 - Data_Preprocessing - INFO - Missing values found:Removing rows with missing values.
+2025-10-07 16:28:33,453 - Data_Preprocessing - INFO - Dropped rows with missing values.
+2025-10-07 16:28:33,454 - Data_Preprocessing - INFO - Current missing values after dropping: 0    0
+1    0
+2    0
+3    0
+4    0
+5    0
+6    0
+7    0
+8    0
+9    0
+dtype: int64
+2025-10-07 16:28:33,456 - Data_Preprocessing - INFO - No duplicate rows found.
+2025-10-07 16:28:33,457 - Data_Preprocessing - INFO - Found columns : 
+Index(['Sl.No', 'District Name', 'Market Name', 'Commodity', 'Variety',
+       'Grade', 'Min Price', 'Max Price', 'Avg Price', 'Date'],
+      dtype='object')
+2025-10-07 16:28:37,933 - Data_Preprocessing - INFO - Data after selecting 'FAQ' grade and 'Avg Price':
+             Price
+Date              
+2013-04-17  5500.0
+2023-02-06  1900.0
+2013-02-25  2830.0
+2016-08-12  2920.0
+2012-05-18   750.0
+2025-10-07 16:29:33,473 - Data_Preprocessing - INFO - Data Preprocessing module initialized.
+2025-10-07 16:29:34,178 - Data_Preprocessing - INFO - Data loaded successfully from C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\agmarknet_data new.xlsx
+2025-10-07 16:29:34,178 - Data_Preprocessing - INFO - Dataset shape: (3483, 10)
+2025-10-07 16:29:34,179 - Data_Preprocessing - INFO - Checking for missing values in each column:
+2025-10-07 16:29:34,180 - Data_Preprocessing - INFO - Missing values found:Removing rows with missing values.
+2025-10-07 16:29:34,181 - Data_Preprocessing - INFO - Dropped rows with missing values.
+2025-10-07 16:29:34,183 - Data_Preprocessing - INFO - Current missing values after dropping: 0    0
+1    0
+2    0
+3    0
+4    0
+5    0
+6    0
+7    0
+8    0
+9    0
+dtype: int64
+2025-10-07 16:29:34,185 - Data_Preprocessing - INFO - No duplicate rows found.
+2025-10-07 16:29:34,186 - Data_Preprocessing - INFO - Found columns : 
+Index(['Sl.No', 'District Name', 'Market Name', 'Commodity', 'Variety',
+       'Grade', 'Min Price', 'Max Price', 'Avg Price', 'Date'],
+      dtype='object')
+2025-10-07 16:29:36,755 - Data_Preprocessing - INFO - Data after selecting 'FAQ' grade and 'Avg Price':
+             Price
+Date              
+2013-04-17  5500.0
+2023-02-06  1900.0
+2013-02-25  2830.0
+2016-08-12  2920.0
+2012-05-18   750.0
+2025-10-07 16:30:09,497 - Data_Preprocessing - INFO - Data Preprocessing module initialized.
+2025-10-07 16:30:10,085 - Data_Preprocessing - INFO - Data loaded successfully from C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\agmarknet_data new.xlsx
+2025-10-07 16:30:10,085 - Data_Preprocessing - INFO - Dataset shape: (3483, 10)
+2025-10-07 16:30:10,086 - Data_Preprocessing - INFO - Checking for missing values in each column:
+2025-10-07 16:30:10,087 - Data_Preprocessing - INFO - Missing values found:Removing rows with missing values.
+2025-10-07 16:30:10,088 - Data_Preprocessing - INFO - Dropped rows with missing values.
+2025-10-07 16:30:10,089 - Data_Preprocessing - INFO - Current missing values after dropping: 0    0
+1    0
+2    0
+3    0
+4    0
+5    0
+6    0
+7    0
+8    0
+9    0
+dtype: int64
+2025-10-07 16:30:10,091 - Data_Preprocessing - INFO - No duplicate rows found.
+2025-10-07 16:30:10,092 - Data_Preprocessing - INFO - Found columns : 
+Index(['Sl.No', 'District Name', 'Market Name', 'Commodity', 'Variety',
+       'Grade', 'Min Price', 'Max Price', 'Avg Price', 'Date'],
+      dtype='object')
+2025-10-07 16:30:12,550 - Data_Preprocessing - INFO - Data after selecting 'FAQ' grade and 'Avg Price':
+             Price
+Date              
+2013-04-17  5500.0
+2023-02-06  1900.0
+2013-02-25  2830.0
+2016-08-12  2920.0
+2012-05-18   750.0
+2025-10-07 16:32:49,334 - Data_Preprocessing - INFO - Data Preprocessing module initialized.
+2025-10-07 16:32:49,995 - Data_Preprocessing - INFO - Data loaded successfully from C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\agmarknet_data new.xlsx
+2025-10-07 16:32:49,996 - Data_Preprocessing - INFO - Dataset shape: (3483, 10)
+2025-10-07 16:32:49,997 - Data_Preprocessing - INFO - Checking for missing values in each column:
+2025-10-07 16:32:49,997 - Data_Preprocessing - INFO - Missing values found:Removing rows with missing values.
+2025-10-07 16:32:49,998 - Data_Preprocessing - INFO - Dropped rows with missing values.
+2025-10-07 16:32:50,000 - Data_Preprocessing - INFO - Current missing values after dropping: 0    0
+1    0
+2    0
+3    0
+4    0
+5    0
+6    0
+7    0
+8    0
+9    0
+dtype: int64
+2025-10-07 16:32:50,002 - Data_Preprocessing - INFO - No duplicate rows found.
+2025-10-07 16:32:50,003 - Data_Preprocessing - INFO - Found columns : 
+Index(['Sl.No', 'District Name', 'Market Name', 'Commodity', 'Variety',
+       'Grade', 'Min Price', 'Max Price', 'Avg Price', 'Date'],
+      dtype='object')
+2025-10-07 16:32:52,348 - Data_Preprocessing - INFO - Data after selecting 'FAQ' grade and 'Avg Price':
+             Price
+Date              
+2013-04-17  5500.0
+2023-02-06  1900.0
+2013-02-25  2830.0
+2016-08-12  2920.0
+2012-05-18   750.0
+2025-10-07 16:32:59,545 - Data_Preprocessing - INFO - Data after filtering from 2016 onwards:
+Empty DataFrame
+Columns: []
+Index: [2016-01-03 00:00:00, 2016-01-10 00:00:00, 2016-01-17 00:00:00, 2016-01-24 00:00:00, 2016-01-31 00:00:00]
+2025-10-07 16:35:47,180 - Data_Preprocessing - INFO - Data Preprocessing module initialized.
+2025-10-07 16:35:47,779 - Data_Preprocessing - INFO - Data loaded successfully from C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\agmarknet_data new.xlsx
+2025-10-07 16:35:47,779 - Data_Preprocessing - INFO - Dataset shape: (3483, 10)
+2025-10-07 16:35:47,780 - Data_Preprocessing - INFO - Checking for missing values in each column:
+2025-10-07 16:35:47,782 - Data_Preprocessing - INFO - Missing values found:Removing rows with missing values.
+2025-10-07 16:35:47,783 - Data_Preprocessing - INFO - Dropped rows with missing values.
+2025-10-07 16:35:47,785 - Data_Preprocessing - INFO - Current missing values after dropping: 0    0
+1    0
+2    0
+3    0
+4    0
+5    0
+6    0
+7    0
+8    0
+9    0
+dtype: int64
+2025-10-07 16:35:47,787 - Data_Preprocessing - INFO - No duplicate rows found.
+2025-10-07 16:35:47,788 - Data_Preprocessing - INFO - Found columns : 
+Index(['Sl.No', 'District Name', 'Market Name', 'Commodity', 'Variety',
+       'Grade', 'Min Price', 'Max Price', 'Avg Price', 'Date'],
+      dtype='object')
+2025-10-07 16:35:50,238 - Data_Preprocessing - INFO - Data after selecting 'FAQ' grade and 'Avg Price':
+             Price
+Date              
+2013-04-17  5500.0
+2023-02-06  1900.0
+2013-02-25  2830.0
+2016-08-12  2920.0
+2012-05-18   750.0
+2025-10-07 16:35:53,850 - Data_Preprocessing - INFO - Data after filtering from 2016 onwards:
+                  Price
+Date                   
+2016-01-03  2266.666667
+2016-01-10  2280.000000
+2016-01-17  2100.000000
+2016-01-24  1866.666667
+2016-01-31  1950.000000
+2025-10-07 16:37:30,247 - Data_Preprocessing - INFO - Data Preprocessing module initialized.
+2025-10-07 16:37:30,844 - Data_Preprocessing - INFO - Data loaded successfully from C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\agmarknet_data new.xlsx
+2025-10-07 16:37:30,845 - Data_Preprocessing - INFO - Dataset shape: (3483, 10)
+2025-10-07 16:37:30,846 - Data_Preprocessing - INFO - Checking for missing values in each column:
+2025-10-07 16:37:30,846 - Data_Preprocessing - INFO - Missing values found:Removing rows with missing values.
+2025-10-07 16:37:30,848 - Data_Preprocessing - INFO - Dropped rows with missing values.
+2025-10-07 16:37:30,849 - Data_Preprocessing - INFO - Current missing values after dropping: 0    0
+1    0
+2    0
+3    0
+4    0
+5    0
+6    0
+7    0
+8    0
+9    0
+dtype: int64
+2025-10-07 16:37:30,851 - Data_Preprocessing - INFO - No duplicate rows found.
+2025-10-07 16:37:30,852 - Data_Preprocessing - INFO - Found columns : 
+Index(['Sl.No', 'District Name', 'Market Name', 'Commodity', 'Variety',
+       'Grade', 'Min Price', 'Max Price', 'Avg Price', 'Date'],
+      dtype='object')
+2025-10-07 16:37:34,993 - Data_Preprocessing - INFO - Data after selecting 'FAQ' grade and 'Avg Price':
+             Price
+Date              
+2013-04-17  5500.0
+2023-02-06  1900.0
+2013-02-25  2830.0
+2016-08-12  2920.0
+2012-05-18   750.0
+2025-10-07 16:37:38,853 - Data_Preprocessing - INFO - Data after filtering from 2016 onwards:
+                  Price
+Date                   
+2016-01-03  2266.666667
+2016-01-10  2280.000000
+2016-01-17  2100.000000
+2016-01-24  1866.666667
+2016-01-31  1950.000000
+2025-10-07 16:37:59,892 - Data_Preprocessing - INFO - Data Preprocessing module initialized.
+2025-10-07 16:38:00,490 - Data_Preprocessing - INFO - Data loaded successfully from C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\agmarknet_data new.xlsx
+2025-10-07 16:38:00,490 - Data_Preprocessing - INFO - Dataset shape: (3483, 10)
+2025-10-07 16:38:00,491 - Data_Preprocessing - INFO - Checking for missing values in each column:
+2025-10-07 16:38:00,492 - Data_Preprocessing - INFO - Missing values found:Removing rows with missing values.
+2025-10-07 16:38:00,493 - Data_Preprocessing - INFO - Dropped rows with missing values.
+2025-10-07 16:38:00,494 - Data_Preprocessing - INFO - Current missing values after dropping: 0    0
+1    0
+2    0
+3    0
+4    0
+5    0
+6    0
+7    0
+8    0
+9    0
+dtype: int64
+2025-10-07 16:38:00,495 - Data_Preprocessing - INFO - No duplicate rows found.
+2025-10-07 16:38:00,496 - Data_Preprocessing - INFO - Found columns : 
+Index(['Sl.No', 'District Name', 'Market Name', 'Commodity', 'Variety',
+       'Grade', 'Min Price', 'Max Price', 'Avg Price', 'Date'],
+      dtype='object')
+2025-10-07 16:38:05,694 - Data_Preprocessing - INFO - Data after selecting 'FAQ' grade and 'Avg Price':
+             Price
+Date              
+2013-04-17  5500.0
+2023-02-06  1900.0
+2013-02-25  2830.0
+2016-08-12  2920.0
+2012-05-18   750.0
+2025-10-07 16:38:25,569 - Data_Preprocessing - INFO - Data after filtering from 2016 onwards:
+                  Price
+Date                   
+2016-01-03  2266.666667
+2016-01-10  2280.000000
+2016-01-17  2100.000000
+2016-01-24  1866.666667
+2016-01-31  1950.000000
+2025-10-07 16:38:58,158 - Data_Preprocessing - INFO - Data Preprocessing module initialized.
+2025-10-07 16:38:58,768 - Data_Preprocessing - INFO - Data loaded successfully from C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\agmarknet_data new.xlsx
+2025-10-07 16:38:58,768 - Data_Preprocessing - INFO - Dataset shape: (3483, 10)
+2025-10-07 16:38:58,770 - Data_Preprocessing - INFO - Checking for missing values in each column:
+2025-10-07 16:38:58,770 - Data_Preprocessing - INFO - Missing values found:Removing rows with missing values.
+2025-10-07 16:38:58,773 - Data_Preprocessing - INFO - Dropped rows with missing values.
+2025-10-07 16:38:58,774 - Data_Preprocessing - INFO - Current missing values after dropping: 0    0
+1    0
+2    0
+3    0
+4    0
+5    0
+6    0
+7    0
+8    0
+9    0
+dtype: int64
+2025-10-07 16:38:58,778 - Data_Preprocessing - INFO - No duplicate rows found.
+2025-10-07 16:38:58,779 - Data_Preprocessing - INFO - Found columns : 
+Index(['Sl.No', 'District Name', 'Market Name', 'Commodity', 'Variety',
+       'Grade', 'Min Price', 'Max Price', 'Avg Price', 'Date'],
+      dtype='object')
+2025-10-07 16:39:00,755 - Data_Preprocessing - INFO - Data after selecting 'FAQ' grade and 'Avg Price':
+             Price
+Date              
+2013-04-17  5500.0
+2023-02-06  1900.0
+2013-02-25  2830.0
+2016-08-12  2920.0
+2012-05-18   750.0
+2025-10-07 16:39:14,833 - Data_Preprocessing - INFO - Data after filtering from 2016 onwards:
+                  Price
+Date                   
+2016-01-03  2266.666667
+2016-01-10  2280.000000
+2016-01-17  2100.000000
+2016-01-24  1866.666667
+2016-01-31  1950.000000
+2025-10-07 16:40:39,775 - Data_Preprocessing - INFO - Data Preprocessing module initialized.
+2025-10-07 16:40:40,360 - Data_Preprocessing - INFO - Data loaded successfully from C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\agmarknet_data new.xlsx
+2025-10-07 16:40:40,360 - Data_Preprocessing - INFO - Dataset shape: (3483, 10)
+2025-10-07 16:40:40,362 - Data_Preprocessing - INFO - Checking for missing values in each column:
+2025-10-07 16:40:40,362 - Data_Preprocessing - INFO - Missing values found:Removing rows with missing values.
+2025-10-07 16:40:40,364 - Data_Preprocessing - INFO - Dropped rows with missing values.
+2025-10-07 16:40:40,365 - Data_Preprocessing - INFO - Current missing values after dropping: 0    0
+1    0
+2    0
+3    0
+4    0
+5    0
+6    0
+7    0
+8    0
+9    0
+dtype: int64
+2025-10-07 16:40:40,368 - Data_Preprocessing - INFO - No duplicate rows found.
+2025-10-07 16:40:40,369 - Data_Preprocessing - INFO - Found columns : 
+Index(['Sl.No', 'District Name', 'Market Name', 'Commodity', 'Variety',
+       'Grade', 'Min Price', 'Max Price', 'Avg Price', 'Date'],
+      dtype='object')
+2025-10-07 16:40:43,270 - Data_Preprocessing - INFO - Data after selecting 'FAQ' grade and 'Avg Price':
+             Price
+Date              
+2013-04-17  5500.0
+2023-02-06  1900.0
+2013-02-25  2830.0
+2016-08-12  2920.0
+2012-05-18   750.0
+2025-10-07 16:40:48,596 - Data_Preprocessing - INFO - Data after filtering from 2016 onwards:
+                  Price
+Date                   
+2016-01-03  2266.666667
+2016-01-10  2280.000000
+2016-01-17  2100.000000
+2016-01-24  1866.666667
+2016-01-31  1950.000000
+2025-10-07 16:40:48,635 - Data_Preprocessing - INFO - ADF Statistic: -3.206259
+2025-10-07 16:40:48,635 - Data_Preprocessing - INFO - p-value: 0.019625
+2025-10-07 16:42:27,233 - Data_Preprocessing - INFO - Data Preprocessing module initialized.
+2025-10-07 16:42:27,861 - Data_Preprocessing - INFO - Data loaded successfully from C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\agmarknet_data new.xlsx
+2025-10-07 16:42:27,861 - Data_Preprocessing - INFO - Dataset shape: (3483, 10)
+2025-10-07 16:42:27,862 - Data_Preprocessing - INFO - Checking for missing values in each column:
+2025-10-07 16:42:27,863 - Data_Preprocessing - INFO - Missing values found:Removing rows with missing values.
+2025-10-07 16:42:27,864 - Data_Preprocessing - INFO - Dropped rows with missing values.
+2025-10-07 16:42:27,865 - Data_Preprocessing - INFO - Current missing values after dropping: 0    0
+1    0
+2    0
+3    0
+4    0
+5    0
+6    0
+7    0
+8    0
+9    0
+dtype: int64
+2025-10-07 16:42:27,868 - Data_Preprocessing - INFO - No duplicate rows found.
+2025-10-07 16:42:27,869 - Data_Preprocessing - INFO - Found columns : 
+Index(['Sl.No', 'District Name', 'Market Name', 'Commodity', 'Variety',
+       'Grade', 'Min Price', 'Max Price', 'Avg Price', 'Date'],
+      dtype='object')
+2025-10-07 16:42:30,412 - Data_Preprocessing - INFO - Data after selecting 'FAQ' grade and 'Avg Price':
+             Price
+Date              
+2013-04-17  5500.0
+2023-02-06  1900.0
+2013-02-25  2830.0
+2016-08-12  2920.0
+2012-05-18   750.0
+2025-10-07 16:42:35,214 - Data_Preprocessing - INFO - Data after filtering from 2016 onwards:
+                  Price
+Date                   
+2016-01-03  2266.666667
+2016-01-10  2280.000000
+2016-01-17  2100.000000
+2016-01-24  1866.666667
+2016-01-31  1950.000000
+2025-10-07 16:42:35,239 - Data_Preprocessing - INFO - ADF Statistic: -3.206259
+2025-10-07 16:42:35,239 - Data_Preprocessing - INFO - p-value: 0.019625
+2025-10-07 16:42:35,240 - Data_Preprocessing - INFO - The time series is stationary.
+2025-10-07 16:43:44,443 - Data_Preprocessing - INFO - Data Preprocessing module initialized.
+2025-10-07 16:43:45,074 - Data_Preprocessing - INFO - Data loaded successfully from C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\agmarknet_data new.xlsx
+2025-10-07 16:43:45,075 - Data_Preprocessing - INFO - Dataset shape: (3483, 10)
+2025-10-07 16:43:45,076 - Data_Preprocessing - INFO - Checking for missing values in each column:
+2025-10-07 16:43:45,076 - Data_Preprocessing - INFO - Missing values found:Removing rows with missing values.
+2025-10-07 16:43:45,078 - Data_Preprocessing - INFO - Dropped rows with missing values.
+2025-10-07 16:43:45,079 - Data_Preprocessing - INFO - Current missing values after dropping: 0    0
+1    0
+2    0
+3    0
+4    0
+5    0
+6    0
+7    0
+8    0
+9    0
+dtype: int64
+2025-10-07 16:43:45,081 - Data_Preprocessing - INFO - No duplicate rows found.
+2025-10-07 16:43:45,082 - Data_Preprocessing - INFO - Found columns : 
+Index(['Sl.No', 'District Name', 'Market Name', 'Commodity', 'Variety',
+       'Grade', 'Min Price', 'Max Price', 'Avg Price', 'Date'],
+      dtype='object')
+2025-10-07 16:43:49,390 - Data_Preprocessing - INFO - Data after selecting 'FAQ' grade and 'Avg Price':
+             Price
+Date              
+2013-04-17  5500.0
+2023-02-06  1900.0
+2013-02-25  2830.0
+2016-08-12  2920.0
+2012-05-18   750.0
+2025-10-07 16:43:56,351 - Data_Preprocessing - INFO - Data after filtering from 2016 onwards:
+                  Price
+Date                   
+2016-01-03  2266.666667
+2016-01-10  2280.000000
+2016-01-17  2100.000000
+2016-01-24  1866.666667
+2016-01-31  1950.000000
+2025-10-07 16:43:56,385 - Data_Preprocessing - INFO - ADF Statistic: -3.206259
+2025-10-07 16:43:56,385 - Data_Preprocessing - INFO - p-value: 0.019625
+2025-10-07 16:43:56,385 - Data_Preprocessing - INFO - The time series is stationary.
+2025-10-07 16:44:29,641 - Data_Preprocessing - INFO - Data Preprocessing module initialized.
+2025-10-07 16:44:30,228 - Data_Preprocessing - INFO - Data loaded successfully from C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\agmarknet_data new.xlsx
+2025-10-07 16:44:30,228 - Data_Preprocessing - INFO - Dataset shape: (3483, 10)
+2025-10-07 16:44:30,229 - Data_Preprocessing - INFO - Checking for missing values in each column:
+2025-10-07 16:44:30,229 - Data_Preprocessing - INFO - Missing values found:Removing rows with missing values.
+2025-10-07 16:44:30,231 - Data_Preprocessing - INFO - Dropped rows with missing values.
+2025-10-07 16:44:30,233 - Data_Preprocessing - INFO - Current missing values after dropping: 0    0
+1    0
+2    0
+3    0
+4    0
+5    0
+6    0
+7    0
+8    0
+9    0
+dtype: int64
+2025-10-07 16:44:30,235 - Data_Preprocessing - INFO - No duplicate rows found.
+2025-10-07 16:44:30,235 - Data_Preprocessing - INFO - Found columns : 
+Index(['Sl.No', 'District Name', 'Market Name', 'Commodity', 'Variety',
+       'Grade', 'Min Price', 'Max Price', 'Avg Price', 'Date'],
+      dtype='object')
+2025-10-07 16:44:32,979 - Data_Preprocessing - INFO - Data after selecting 'FAQ' grade and 'Avg Price':
+             Price
+Date              
+2013-04-17  5500.0
+2023-02-06  1900.0
+2013-02-25  2830.0
+2016-08-12  2920.0
+2012-05-18   750.0
+2025-10-07 16:44:39,251 - Data_Preprocessing - INFO - Data after filtering from 2016 onwards:
+                  Price
+Date                   
+2016-01-03  2266.666667
+2016-01-10  2280.000000
+2016-01-17  2100.000000
+2016-01-24  1866.666667
+2016-01-31  1950.000000
+2025-10-07 16:44:39,295 - Data_Preprocessing - INFO - ADF Statistic: -3.206259
+2025-10-07 16:44:39,296 - Data_Preprocessing - INFO - p-value: 0.019625
+2025-10-07 16:44:39,296 - Data_Preprocessing - INFO - The time series is stationary.
+2025-10-07 17:41:40,893 - Data_Preprocessing - INFO - Data Preprocessing module initialized.
+2025-10-07 17:41:41,499 - Data_Preprocessing - INFO - Data loaded successfully from C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\agmarknet_data new.xlsx
+2025-10-07 17:41:41,499 - Data_Preprocessing - INFO - Dataset shape: (3483, 10)
+2025-10-07 17:41:41,501 - Data_Preprocessing - INFO - Checking for missing values in each column:
+2025-10-07 17:41:41,501 - Data_Preprocessing - INFO - Missing values found:Removing rows with missing values.
+2025-10-07 17:41:41,502 - Data_Preprocessing - INFO - Dropped rows with missing values.
+2025-10-07 17:41:41,504 - Data_Preprocessing - INFO - Current missing values after dropping: 0    0
+1    0
+2    0
+3    0
+4    0
+5    0
+6    0
+7    0
+8    0
+9    0
+dtype: int64
+2025-10-07 17:41:41,506 - Data_Preprocessing - INFO - No duplicate rows found.
+2025-10-07 17:41:41,506 - Data_Preprocessing - INFO - Found columns : 
+Index(['Sl.No', 'District Name', 'Market Name', 'Commodity', 'Variety',
+       'Grade', 'Min Price', 'Max Price', 'Avg Price', 'Date'],
+      dtype='object')
+2025-10-07 17:41:47,253 - Data_Preprocessing - INFO - Data after selecting 'FAQ' grade and 'Avg Price':
+             Price
+Date              
+2013-04-17  5500.0
+2023-02-06  1900.0
+2013-02-25  2830.0
+2016-08-12  2920.0
+2012-05-18   750.0
+2025-10-07 17:41:53,562 - Data_Preprocessing - INFO - Data after filtering from 2016 onwards:
+                  Price
+Date                   
+2016-01-03  2266.666667
+2016-01-10  2280.000000
+2016-01-17  2100.000000
+2016-01-24  1866.666667
+2016-01-31  1950.000000
+2025-10-07 17:41:53,604 - Data_Preprocessing - INFO - ADF Statistic: -3.206259
+2025-10-07 17:41:53,605 - Data_Preprocessing - INFO - p-value: 0.019625
+2025-10-07 17:41:53,605 - Data_Preprocessing - INFO - The time series is stationary.
+2025-10-07 17:44:03,982 - Data_Preprocessing - INFO - Data Preprocessing module initialized.
+2025-10-07 17:44:04,592 - Data_Preprocessing - INFO - Data loaded successfully from C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\agmarknet_data new.xlsx
+2025-10-07 17:44:04,593 - Data_Preprocessing - INFO - Dataset shape: (3483, 10)
+2025-10-07 17:44:04,594 - Data_Preprocessing - INFO - Checking for missing values in each column:
+2025-10-07 17:44:04,595 - Data_Preprocessing - INFO - Missing values found:Removing rows with missing values.
+2025-10-07 17:44:04,596 - Data_Preprocessing - INFO - Dropped rows with missing values.
+2025-10-07 17:44:04,599 - Data_Preprocessing - INFO - Current missing values after dropping: 0    0
+1    0
+2    0
+3    0
+4    0
+5    0
+6    0
+7    0
+8    0
+9    0
+dtype: int64
+2025-10-07 17:44:04,604 - Data_Preprocessing - INFO - No duplicate rows found.
+2025-10-07 17:44:04,606 - Data_Preprocessing - INFO - Found columns : 
+Index(['Sl.No', 'District Name', 'Market Name', 'Commodity', 'Variety',
+       'Grade', 'Min Price', 'Max Price', 'Avg Price', 'Date'],
+      dtype='object')
+2025-10-07 17:44:06,653 - Data_Preprocessing - INFO - Data after selecting 'FAQ' grade and 'Avg Price':
+             Price
+Date              
+2013-04-17  5500.0
+2023-02-06  1900.0
+2013-02-25  2830.0
+2016-08-12  2920.0
+2012-05-18   750.0
+2025-10-07 17:44:12,601 - Data_Preprocessing - INFO - Data after filtering from 2016 onwards:
+                  Price
+Date                   
+2016-01-03  2266.666667
+2016-01-10  2280.000000
+2016-01-17  2100.000000
+2016-01-24  1866.666667
+2016-01-31  1950.000000
+2025-10-07 17:44:12,626 - Data_Preprocessing - INFO - ADF Statistic: -3.206259
+2025-10-07 17:44:12,627 - Data_Preprocessing - INFO - p-value: 0.019625
+2025-10-07 17:44:12,627 - Data_Preprocessing - INFO - The time series is stationary.
+2025-10-07 17:44:14,857 - Data_Preprocessing - INFO - Preprocessed data saved to 'preprocessed_data.csv'.
+2025-10-07 17:44:38,622 - Data_Preprocessing - INFO - Data Preprocessing module initialized.
+2025-10-07 17:44:39,225 - Data_Preprocessing - INFO - Data loaded successfully from C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\agmarknet_data new.xlsx
+2025-10-07 17:44:39,225 - Data_Preprocessing - INFO - Dataset shape: (3483, 10)
+2025-10-07 17:44:39,227 - Data_Preprocessing - INFO - Checking for missing values in each column:
+2025-10-07 17:44:39,227 - Data_Preprocessing - INFO - Missing values found:Removing rows with missing values.
+2025-10-07 17:44:39,228 - Data_Preprocessing - INFO - Dropped rows with missing values.
+2025-10-07 17:44:39,230 - Data_Preprocessing - INFO - Current missing values after dropping: 0    0
+1    0
+2    0
+3    0
+4    0
+5    0
+6    0
+7    0
+8    0
+9    0
+dtype: int64
+2025-10-07 17:44:39,232 - Data_Preprocessing - INFO - No duplicate rows found.
+2025-10-07 17:44:39,233 - Data_Preprocessing - INFO - Found columns : 
+Index(['Sl.No', 'District Name', 'Market Name', 'Commodity', 'Variety',
+       'Grade', 'Min Price', 'Max Price', 'Avg Price', 'Date'],
+      dtype='object')
+2025-10-07 17:44:42,105 - Data_Preprocessing - INFO - Data after selecting 'FAQ' grade and 'Avg Price':
+             Price
+Date              
+2013-04-17  5500.0
+2023-02-06  1900.0
+2013-02-25  2830.0
+2016-08-12  2920.0
+2012-05-18   750.0
+2025-10-07 17:44:50,358 - Data_Preprocessing - INFO - Data after filtering from 2016 onwards:
+                  Price
+Date                   
+2016-01-03  2266.666667
+2016-01-10  2280.000000
+2016-01-17  2100.000000
+2016-01-24  1866.666667
+2016-01-31  1950.000000
+2025-10-07 17:44:50,403 - Data_Preprocessing - INFO - ADF Statistic: -3.206259
+2025-10-07 17:44:50,404 - Data_Preprocessing - INFO - p-value: 0.019625
+2025-10-07 17:44:50,404 - Data_Preprocessing - INFO - The time series is stationary.
+2025-10-07 17:44:55,558 - Data_Preprocessing - INFO - Preprocessed data saved to 'preprocessed_data.csv'.
+2025-10-07 17:48:13,484 - Data_Preprocessing - INFO - Data Preprocessing module initialized.
+2025-10-07 17:48:14,122 - Data_Preprocessing - INFO - Data loaded successfully from C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\agmarknet_data new.xlsx
+2025-10-07 17:48:14,122 - Data_Preprocessing - INFO - Dataset shape: (3483, 10)
+2025-10-07 17:48:14,123 - Data_Preprocessing - INFO - Checking for missing values in each column:
+2025-10-07 17:48:14,124 - Data_Preprocessing - INFO - Missing values found:Removing rows with missing values.
+2025-10-07 17:48:14,125 - Data_Preprocessing - INFO - Dropped rows with missing values.
+2025-10-07 17:48:14,127 - Data_Preprocessing - INFO - Current missing values after dropping: 0    0
+1    0
+2    0
+3    0
+4    0
+5    0
+6    0
+7    0
+8    0
+9    0
+dtype: int64
+2025-10-07 17:48:14,129 - Data_Preprocessing - INFO - No duplicate rows found.
+2025-10-07 17:48:14,130 - Data_Preprocessing - INFO - Found columns : 
+Index(['Sl.No', 'District Name', 'Market Name', 'Commodity', 'Variety',
+       'Grade', 'Min Price', 'Max Price', 'Avg Price', 'Date'],
+      dtype='object')
+2025-10-07 17:48:16,362 - Data_Preprocessing - INFO - Data after selecting 'FAQ' grade and 'Avg Price':
+             Price
+Date              
+2013-04-17  5500.0
+2023-02-06  1900.0
+2013-02-25  2830.0
+2016-08-12  2920.0
+2012-05-18   750.0
+2025-10-07 17:48:21,905 - Data_Preprocessing - INFO - Data after filtering from 2016 onwards:
+                  Price
+Date                   
+2016-01-03  2266.666667
+2016-01-10  2280.000000
+2016-01-17  2100.000000
+2016-01-24  1866.666667
+2016-01-31  1950.000000
+2025-10-07 17:48:21,931 - Data_Preprocessing - INFO - ADF Statistic: -3.206259
+2025-10-07 17:48:21,931 - Data_Preprocessing - INFO - p-value: 0.019625
+2025-10-07 17:48:21,931 - Data_Preprocessing - INFO - The time series is stationary.
+2025-10-07 17:48:23,477 - Data_Preprocessing - INFO - Preprocessed data saved to 'preprocessed_data.csv'.
+2025-10-07 17:48:47,887 - Data_Preprocessing - INFO - Data Preprocessing module initialized.
+2025-10-07 17:48:48,489 - Data_Preprocessing - INFO - Data loaded successfully from C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\agmarknet_data new.xlsx
+2025-10-07 17:48:48,490 - Data_Preprocessing - INFO - Dataset shape: (3483, 10)
+2025-10-07 17:48:48,491 - Data_Preprocessing - INFO - Checking for missing values in each column:
+2025-10-07 17:48:48,491 - Data_Preprocessing - INFO - Missing values found:Removing rows with missing values.
+2025-10-07 17:48:48,492 - Data_Preprocessing - INFO - Dropped rows with missing values.
+2025-10-07 17:48:48,494 - Data_Preprocessing - INFO - Current missing values after dropping: 0    0
+1    0
+2    0
+3    0
+4    0
+5    0
+6    0
+7    0
+8    0
+9    0
+dtype: int64
+2025-10-07 17:48:48,496 - Data_Preprocessing - INFO - No duplicate rows found.
+2025-10-07 17:48:48,496 - Data_Preprocessing - INFO - Found columns : 
+Index(['Sl.No', 'District Name', 'Market Name', 'Commodity', 'Variety',
+       'Grade', 'Min Price', 'Max Price', 'Avg Price', 'Date'],
+      dtype='object')
+2025-10-07 17:48:51,145 - Data_Preprocessing - INFO - Data after selecting 'FAQ' grade and 'Avg Price':
+             Price
+Date              
+2013-04-17  5500.0
+2023-02-06  1900.0
+2013-02-25  2830.0
+2016-08-12  2920.0
+2012-05-18   750.0
+2025-10-07 17:48:55,984 - Data_Preprocessing - INFO - Data after filtering from 2016 onwards:
+                  Price
+Date                   
+2016-01-03  2266.666667
+2016-01-10  2280.000000
+2016-01-17  2100.000000
+2016-01-24  1866.666667
+2016-01-31  1950.000000
+2025-10-07 17:48:56,033 - Data_Preprocessing - INFO - ADF Statistic: -3.206259
+2025-10-07 17:48:56,034 - Data_Preprocessing - INFO - p-value: 0.019625
+2025-10-07 17:48:56,034 - Data_Preprocessing - INFO - The time series is stationary.
+2025-10-07 17:49:02,632 - Data_Preprocessing - INFO - Preprocessed data saved to 'preprocessed_data.csv'.

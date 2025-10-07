@@ -1,0 +1,168 @@
+2025-10-04 19:50:51,823 - data_ingestion - INFO - Chrome session started.
+2025-10-04 19:50:51,824 - data_ingestion - INFO - Launching headless Chrome browser.
+2025-10-04 19:51:05,040 - data_ingestion - INFO - Navigated to agmarknet.gov.in
+2025-10-04 19:51:08,042 - data_ingestion - INFO - Interacting with dropdown menus, selecting Commodity
+2025-10-04 19:51:10,112 - data_ingestion - INFO - Selecting State, District and Market
+2025-10-04 19:51:19,290 - data_ingestion - INFO - Entering date
+2025-10-04 19:51:26,674 - data_ingestion - INFO - Extracting table data
+2025-10-04 19:51:26,841 - data_ingestion - INFO - Found 3483 rows in the table.
+2025-10-04 19:51:26,844 - data_ingestion - INFO - Extracting data from each row, this may take a while... Please wait.
+2025-10-04 20:00:08,031 - data_ingestion - INFO - Starting a new Chrome session.
+2025-10-04 20:00:08,031 - data_ingestion - INFO - Starting a new Chrome session.
+2025-10-04 20:00:09,334 - data_ingestion - INFO - Chrome session started.
+2025-10-04 20:00:09,334 - data_ingestion - INFO - Chrome session started.
+2025-10-04 20:00:09,338 - data_ingestion - INFO - Navigating to agmarknet.gov.in
+2025-10-04 20:00:09,338 - data_ingestion - INFO - Navigating to agmarknet.gov.in
+2025-10-04 20:00:21,693 - data_ingestion - INFO - Navigated to agmarknet.gov.in
+2025-10-04 20:00:21,693 - data_ingestion - INFO - Navigated to agmarknet.gov.in
+2025-10-04 20:00:24,699 - data_ingestion - INFO - Interacting with dropdown menus, Selecting Commodity(Ginger)
+2025-10-04 20:00:24,699 - data_ingestion - INFO - Interacting with dropdown menus, Selecting Commodity(Ginger)
+2025-10-04 20:00:26,890 - data_ingestion - INFO - Selecting States
+2025-10-04 20:00:26,890 - data_ingestion - INFO - Selecting States
+2025-10-04 20:00:29,958 - data_ingestion - INFO - Selecting District(Bangalore) and Market(Bangalore)
+2025-10-04 20:00:29,958 - data_ingestion - INFO - Selecting District(Bangalore) and Market(Bangalore)
+2025-10-04 20:00:36,353 - data_ingestion - INFO - Entering Date(01-01-2010)
+2025-10-04 20:00:36,353 - data_ingestion - INFO - Entering Date(01-01-2010)
+2025-10-04 20:00:39,558 - data_ingestion - INFO - Submitting the form
+2025-10-04 20:00:39,558 - data_ingestion - INFO - Submitting the form
+2025-10-04 20:00:44,782 - data_ingestion - INFO - Number of rows found: 3483
+2025-10-04 20:00:44,782 - data_ingestion - INFO - Number of rows found: 3483
+2025-10-04 20:00:44,784 - data_ingestion - INFO - Extracting data from table, row by row, this may take a while...Please wait...
+2025-10-04 20:00:44,784 - data_ingestion - INFO - Extracting data from table, row by row, this may take a while...Please wait...
+2025-10-04 20:03:48,837 - data_ingestion - INFO - Configuring Chrome in headless mode.
+2025-10-04 20:03:48,837 - data_ingestion - INFO - Configuring Chrome in headless mode.
+2025-10-04 20:03:48,837 - data_ingestion - INFO - Configuring Chrome in headless mode.
+2025-10-04 20:03:48,840 - data_ingestion - INFO - Starting a new headless Chrome session.
+2025-10-04 20:03:48,840 - data_ingestion - INFO - Starting a new headless Chrome session.
+2025-10-04 20:03:48,840 - data_ingestion - INFO - Starting a new headless Chrome session.
+2025-10-04 20:03:50,501 - data_ingestion - INFO - Chrome session started successfully.
+2025-10-04 20:03:50,501 - data_ingestion - INFO - Chrome session started successfully.
+2025-10-04 20:03:50,501 - data_ingestion - INFO - Chrome session started successfully.
+2025-10-04 20:03:50,504 - data_ingestion - INFO - Navigating to agmarknet.gov.in
+2025-10-04 20:03:50,504 - data_ingestion - INFO - Navigating to agmarknet.gov.in
+2025-10-04 20:03:50,504 - data_ingestion - INFO - Navigating to agmarknet.gov.in
+2025-10-04 20:04:03,386 - data_ingestion - INFO - Navigation successful.
+2025-10-04 20:04:03,386 - data_ingestion - INFO - Navigation successful.
+2025-10-04 20:04:03,386 - data_ingestion - INFO - Navigation successful.
+2025-10-04 20:04:03,388 - data_ingestion - INFO - Navigated to agmarknet.gov.in
+2025-10-04 20:04:03,388 - data_ingestion - INFO - Navigated to agmarknet.gov.in
+2025-10-04 20:04:03,388 - data_ingestion - INFO - Navigated to agmarknet.gov.in
+2025-10-04 20:04:06,392 - data_ingestion - INFO - Interacting with dropdown menus, Selecting Commodity(Ginger)
+2025-10-04 20:04:06,392 - data_ingestion - INFO - Interacting with dropdown menus, Selecting Commodity(Ginger)
+2025-10-04 20:04:06,392 - data_ingestion - INFO - Interacting with dropdown menus, Selecting Commodity(Ginger)
+2025-10-04 20:04:08,452 - data_ingestion - INFO - Selecting States
+2025-10-04 20:04:08,452 - data_ingestion - INFO - Selecting States
+2025-10-04 20:04:08,452 - data_ingestion - INFO - Selecting States
+2025-10-04 20:04:11,502 - data_ingestion - INFO - Selecting District(Bangalore) and Market(Bangalore)
+2025-10-04 20:04:11,502 - data_ingestion - INFO - Selecting District(Bangalore) and Market(Bangalore)
+2025-10-04 20:04:11,502 - data_ingestion - INFO - Selecting District(Bangalore) and Market(Bangalore)
+2025-10-04 20:09:44,644 - data_ingestion - INFO - Configuring Chrome in headless mode.
+2025-10-04 20:09:44,644 - data_ingestion - INFO - Configuring Chrome in headless mode.
+2025-10-04 20:09:44,644 - data_ingestion - INFO - Configuring Chrome in headless mode.
+2025-10-04 20:09:44,644 - data_ingestion - INFO - Configuring Chrome in headless mode.
+2025-10-04 20:09:44,653 - data_ingestion - INFO - Starting a new headless Chrome session.
+2025-10-04 20:09:44,653 - data_ingestion - INFO - Starting a new headless Chrome session.
+2025-10-04 20:09:44,653 - data_ingestion - INFO - Starting a new headless Chrome session.
+2025-10-04 20:09:44,653 - data_ingestion - INFO - Starting a new headless Chrome session.
+2025-10-04 20:09:47,435 - data_ingestion - INFO - Chrome session started successfully.
+2025-10-04 20:09:47,435 - data_ingestion - INFO - Chrome session started successfully.
+2025-10-04 20:09:47,435 - data_ingestion - INFO - Chrome session started successfully.
+2025-10-04 20:09:47,435 - data_ingestion - INFO - Chrome session started successfully.
+2025-10-04 20:09:47,444 - data_ingestion - INFO - Navigating to agmarknet.gov.in
+2025-10-04 20:09:47,444 - data_ingestion - INFO - Navigating to agmarknet.gov.in
+2025-10-04 20:09:47,444 - data_ingestion - INFO - Navigating to agmarknet.gov.in
+2025-10-04 20:09:47,444 - data_ingestion - INFO - Navigating to agmarknet.gov.in
+2025-10-04 20:09:58,505 - data_ingestion - INFO - Navigation successful.
+2025-10-04 20:09:58,505 - data_ingestion - INFO - Navigation successful.
+2025-10-04 20:09:58,505 - data_ingestion - INFO - Navigation successful.
+2025-10-04 20:09:58,505 - data_ingestion - INFO - Navigation successful.
+2025-10-04 20:09:58,510 - data_ingestion - INFO - Navigated to agmarknet.gov.in
+2025-10-04 20:09:58,510 - data_ingestion - INFO - Navigated to agmarknet.gov.in
+2025-10-04 20:09:58,510 - data_ingestion - INFO - Navigated to agmarknet.gov.in
+2025-10-04 20:09:58,510 - data_ingestion - INFO - Navigated to agmarknet.gov.in
+2025-10-04 20:10:01,519 - data_ingestion - INFO - Interacting with dropdown menus, Selecting Commodity(Ginger)
+2025-10-04 20:10:01,519 - data_ingestion - INFO - Interacting with dropdown menus, Selecting Commodity(Ginger)
+2025-10-04 20:10:01,519 - data_ingestion - INFO - Interacting with dropdown menus, Selecting Commodity(Ginger)
+2025-10-04 20:10:01,519 - data_ingestion - INFO - Interacting with dropdown menus, Selecting Commodity(Ginger)
+2025-10-04 20:10:03,582 - data_ingestion - INFO - Selecting States
+2025-10-04 20:10:03,582 - data_ingestion - INFO - Selecting States
+2025-10-04 20:10:03,582 - data_ingestion - INFO - Selecting States
+2025-10-04 20:10:03,582 - data_ingestion - INFO - Selecting States
+2025-10-04 20:10:06,641 - data_ingestion - INFO - Selecting District(Bangalore) and Market(Bangalore)
+2025-10-04 20:10:06,641 - data_ingestion - INFO - Selecting District(Bangalore) and Market(Bangalore)
+2025-10-04 20:10:06,641 - data_ingestion - INFO - Selecting District(Bangalore) and Market(Bangalore)
+2025-10-04 20:10:06,641 - data_ingestion - INFO - Selecting District(Bangalore) and Market(Bangalore)
+2025-10-04 20:10:12,748 - data_ingestion - INFO - Entering Date(01-01-2010)
+2025-10-04 20:10:12,748 - data_ingestion - INFO - Entering Date(01-01-2010)
+2025-10-04 20:10:12,748 - data_ingestion - INFO - Entering Date(01-01-2010)
+2025-10-04 20:10:12,748 - data_ingestion - INFO - Entering Date(01-01-2010)
+2025-10-04 20:10:23,572 - data_ingestion - INFO - Configuring Chrome in headless mode.
+2025-10-04 20:10:23,572 - data_ingestion - INFO - Configuring Chrome in headless mode.
+2025-10-04 20:10:23,572 - data_ingestion - INFO - Configuring Chrome in headless mode.
+2025-10-04 20:10:23,572 - data_ingestion - INFO - Configuring Chrome in headless mode.
+2025-10-04 20:10:23,572 - data_ingestion - INFO - Configuring Chrome in headless mode.
+2025-10-04 20:10:23,578 - data_ingestion - INFO - Starting a new headless Chrome session.
+2025-10-04 20:10:23,578 - data_ingestion - INFO - Starting a new headless Chrome session.
+2025-10-04 20:10:23,578 - data_ingestion - INFO - Starting a new headless Chrome session.
+2025-10-04 20:10:23,578 - data_ingestion - INFO - Starting a new headless Chrome session.
+2025-10-04 20:10:23,578 - data_ingestion - INFO - Starting a new headless Chrome session.
+2025-10-04 20:10:26,273 - data_ingestion - INFO - Chrome session started successfully.
+2025-10-04 20:10:26,273 - data_ingestion - INFO - Chrome session started successfully.
+2025-10-04 20:10:26,273 - data_ingestion - INFO - Chrome session started successfully.
+2025-10-04 20:10:26,273 - data_ingestion - INFO - Chrome session started successfully.
+2025-10-04 20:10:26,273 - data_ingestion - INFO - Chrome session started successfully.
+2025-10-04 20:10:26,276 - data_ingestion - INFO - Navigating to agmarknet.gov.in
+2025-10-04 20:10:26,276 - data_ingestion - INFO - Navigating to agmarknet.gov.in
+2025-10-04 20:10:26,276 - data_ingestion - INFO - Navigating to agmarknet.gov.in
+2025-10-04 20:10:26,276 - data_ingestion - INFO - Navigating to agmarknet.gov.in
+2025-10-04 20:10:26,276 - data_ingestion - INFO - Navigating to agmarknet.gov.in
+2025-10-04 20:10:45,438 - data_ingestion - INFO - Navigation successful.
+2025-10-04 20:10:45,438 - data_ingestion - INFO - Navigation successful.
+2025-10-04 20:10:45,438 - data_ingestion - INFO - Navigation successful.
+2025-10-04 20:10:45,438 - data_ingestion - INFO - Navigation successful.
+2025-10-04 20:10:45,438 - data_ingestion - INFO - Navigation successful.
+2025-10-04 20:10:45,442 - data_ingestion - INFO - Navigated to agmarknet.gov.in
+2025-10-04 20:10:45,442 - data_ingestion - INFO - Navigated to agmarknet.gov.in
+2025-10-04 20:10:45,442 - data_ingestion - INFO - Navigated to agmarknet.gov.in
+2025-10-04 20:10:45,442 - data_ingestion - INFO - Navigated to agmarknet.gov.in
+2025-10-04 20:10:45,442 - data_ingestion - INFO - Navigated to agmarknet.gov.in
+2025-10-04 20:10:48,448 - data_ingestion - INFO - Interacting with dropdown menus, Selecting Commodity(Ginger)
+2025-10-04 20:10:48,448 - data_ingestion - INFO - Interacting with dropdown menus, Selecting Commodity(Ginger)
+2025-10-04 20:10:48,448 - data_ingestion - INFO - Interacting with dropdown menus, Selecting Commodity(Ginger)
+2025-10-04 20:10:48,448 - data_ingestion - INFO - Interacting with dropdown menus, Selecting Commodity(Ginger)
+2025-10-04 20:10:48,448 - data_ingestion - INFO - Interacting with dropdown menus, Selecting Commodity(Ginger)
+2025-10-04 20:10:50,550 - data_ingestion - INFO - Selecting States
+2025-10-04 20:10:50,550 - data_ingestion - INFO - Selecting States
+2025-10-04 20:10:50,550 - data_ingestion - INFO - Selecting States
+2025-10-04 20:10:50,550 - data_ingestion - INFO - Selecting States
+2025-10-04 20:10:50,550 - data_ingestion - INFO - Selecting States
+2025-10-04 20:10:53,632 - data_ingestion - INFO - Selecting District(Bangalore) and Market(Bangalore)
+2025-10-04 20:10:53,632 - data_ingestion - INFO - Selecting District(Bangalore) and Market(Bangalore)
+2025-10-04 20:10:53,632 - data_ingestion - INFO - Selecting District(Bangalore) and Market(Bangalore)
+2025-10-04 20:10:53,632 - data_ingestion - INFO - Selecting District(Bangalore) and Market(Bangalore)
+2025-10-04 20:10:53,632 - data_ingestion - INFO - Selecting District(Bangalore) and Market(Bangalore)
+2025-10-04 20:10:59,823 - data_ingestion - INFO - Entering Date(01-01-2010)
+2025-10-04 20:10:59,823 - data_ingestion - INFO - Entering Date(01-01-2010)
+2025-10-04 20:10:59,823 - data_ingestion - INFO - Entering Date(01-01-2010)
+2025-10-04 20:10:59,823 - data_ingestion - INFO - Entering Date(01-01-2010)
+2025-10-04 20:10:59,823 - data_ingestion - INFO - Entering Date(01-01-2010)
+2025-10-04 20:11:03,043 - data_ingestion - INFO - Submitting the form
+2025-10-04 20:11:03,043 - data_ingestion - INFO - Submitting the form
+2025-10-04 20:11:03,043 - data_ingestion - INFO - Submitting the form
+2025-10-04 20:11:03,043 - data_ingestion - INFO - Submitting the form
+2025-10-04 20:11:03,043 - data_ingestion - INFO - Submitting the form
+2025-10-04 20:11:09,406 - data_ingestion - INFO - Number of rows found: 3483
+2025-10-04 20:11:09,406 - data_ingestion - INFO - Number of rows found: 3483
+2025-10-04 20:11:09,406 - data_ingestion - INFO - Number of rows found: 3483
+2025-10-04 20:11:09,406 - data_ingestion - INFO - Number of rows found: 3483
+2025-10-04 20:11:09,406 - data_ingestion - INFO - Number of rows found: 3483
+2025-10-04 20:11:09,409 - data_ingestion - INFO - Extracting data from table, row by row, this may take a while...Please wait...
+2025-10-04 20:11:09,409 - data_ingestion - INFO - Extracting data from table, row by row, this may take a while...Please wait...
+2025-10-04 20:11:09,409 - data_ingestion - INFO - Extracting data from table, row by row, this may take a while...Please wait...
+2025-10-04 20:11:09,409 - data_ingestion - INFO - Extracting data from table, row by row, this may take a while...Please wait...
+2025-10-04 20:11:09,409 - data_ingestion - INFO - Extracting data from table, row by row, this may take a while...Please wait...
+2025-10-04 20:14:53,453 - data_ingestion - INFO - Data extraction complete.
+2025-10-04 20:14:53,453 - data_ingestion - INFO - Data extraction complete.
+2025-10-04 20:14:53,453 - data_ingestion - INFO - Data extraction complete.
+2025-10-04 20:14:53,453 - data_ingestion - INFO - Data extraction complete.
+2025-10-04 20:14:53,453 - data_ingestion - INFO - Data extraction complete.

@@ -1,0 +1,27 @@
+2025-10-04 19:54:11,008 - WebScrapingLogger - INFO - Chrome session started.
+2025-10-04 19:54:11,009 - WebScrapingLogger - INFO - Launching headless Chrome browser.
+2025-10-04 19:54:22,698 - WebScrapingLogger - INFO - Navigated to agmarknet.gov.in
+2025-10-04 19:54:25,700 - WebScrapingLogger - INFO - Interacting with dropdown menus, selecting Commodity
+2025-10-04 19:54:27,801 - WebScrapingLogger - INFO - Selecting State, District and Market
+2025-10-04 19:54:37,007 - WebScrapingLogger - INFO - Entering date
+2025-10-04 19:54:44,473 - WebScrapingLogger - INFO - Extracting table data
+2025-10-04 19:54:44,636 - WebScrapingLogger - INFO - Found 3483 rows in the table.
+2025-10-04 19:54:44,637 - WebScrapingLogger - INFO - Extracting data from each row, this may take a while... Please wait.
+2025-10-04 19:55:34,677 - WebScrapingLogger - INFO - Chrome session started.
+2025-10-04 19:55:34,677 - WebScrapingLogger - INFO - Chrome session started.
+2025-10-04 19:55:34,680 - WebScrapingLogger - INFO - Launching headless Chrome browser.
+2025-10-04 19:55:34,680 - WebScrapingLogger - INFO - Launching headless Chrome browser.
+2025-10-04 19:55:46,765 - WebScrapingLogger - INFO - Navigated to agmarknet.gov.in
+2025-10-04 19:55:46,765 - WebScrapingLogger - INFO - Navigated to agmarknet.gov.in
+2025-10-04 19:55:49,768 - WebScrapingLogger - INFO - Interacting with dropdown menus, selecting Commodity
+2025-10-04 19:55:49,768 - WebScrapingLogger - INFO - Interacting with dropdown menus, selecting Commodity
+2025-10-04 19:55:51,931 - WebScrapingLogger - INFO - Selecting State, District and Market
+2025-10-04 19:55:51,931 - WebScrapingLogger - INFO - Selecting State, District and Market
+2025-10-04 19:56:01,108 - WebScrapingLogger - INFO - Entering date
+2025-10-04 19:56:01,108 - WebScrapingLogger - INFO - Entering date
+2025-10-04 19:56:08,821 - WebScrapingLogger - INFO - Extracting table data
+2025-10-04 19:56:08,821 - WebScrapingLogger - INFO - Extracting table data
+2025-10-04 19:56:11,270 - WebScrapingLogger - INFO - Found 3483 rows in the table.
+2025-10-04 19:56:11,270 - WebScrapingLogger - INFO - Found 3483 rows in the table.
+2025-10-04 19:56:11,273 - WebScrapingLogger - INFO - Extracting data from each row, this may take a while... Please wait.
+2025-10-04 19:56:11,273 - WebScrapingLogger - INFO - Extracting data from each row, this may take a while... Please wait.
