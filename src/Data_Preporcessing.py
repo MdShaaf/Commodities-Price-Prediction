@@ -106,18 +106,18 @@ df.rename(columns={'Avg Price':'Price'}, inplace=True)
 logger.info(f"Data after selecting 'FAQ' grade and 'Avg Price':\n{df.head()}")
 df.sort_index(inplace=True)
 # Checking for outliers using boxplot
-df=df.resample('W').mean() # Weekly resampling
+df=df.resample('ME').mean() # Monthly resampling
 plt.figure(figsize=(8,5))
 sns.boxplot(x=df['Price'])
 plt.title('Boxplot of Prices')
 plt.show()
 plt.figure(figsize=(15,6))
 plt.plot(df['Price'], label='Price', color='blue')
-plt.title('Weekly Resampled Average Prices')
+plt.title('01-Monthly Resampled Average Prices')
 plt.xlabel('Date')
 plt.ylabel('Price')
 plt.legend()
-plt.savefig(os.path.join(plot_dir, 'Weekly Resampled Average Prices.png'))
+plt.savefig(os.path.join(plot_dir, '01-Monthly Resampled Average Prices.png'))
 plt.show()
 
 #There are not entries between 2012 to 2015
@@ -128,11 +128,11 @@ df=df[df.index >= '2016-01-01']
 df['Price'].interpolate(method='linear', inplace=True)
 plt.plot(figsize=(15,6))
 plt.plot(df['Price'], label='Price', color='blue')
-plt.title('Weekly Resampled Average Prices from 2016 onwards')
+plt.title('02-Monthly Resampled Average Prices from 2016 onwards')
 plt.xlabel('Date')
 plt.ylabel('Price')
 plt.legend()
-plt.savefig(os.path.join(plot_dir, 'Weekly Resampled Average Prices from 2016 onwards.png'))
+plt.savefig(os.path.join(plot_dir, '02-Monthly Resampled Average Prices from 2016 onwards.png'))
 plt.show()
 logger.info(f"Data after filtering from 2016 onwards:\n{df.head()}")
 # Checking for stationarity using ADF test
@@ -149,17 +149,19 @@ else:
 #checking for seasonality and trend using seasonal decomposition
 decomposition = seasonal_decompose(df['Price'], model='additive', period=52)
 decomposition.plot()
+plt.suptitle('Seasonal Decomposition of Prices', fontsize=16)
+plt.savefig(os.path.join(plot_dir, '03-Seasonal Decomposition of Prices.png'))
 plt.show()
 
 #applying log transformation
 df['Price'] = np.log(df['Price'])
 plt.figure(figsize=(15,6))
 plt.plot(df)
-plt.title('Log Transformed Weekly Resampled Average Prices from 2016 onwards')
+plt.title(' 03-Monthly Log Transformed Resampled Average Prices from 2016 onwards')
 plt.xlabel('Date')
 plt.ylabel('Log Price')
 plt.legend()    
-plt.savefig(os.path.join(plot_dir, 'Log Transformed Weekly Resampled Average Prices from 2016 onwards.png'))
+plt.savefig(os.path.join(plot_dir, ' 03-Monthly Log Transformed Resampled Average Prices from 2016 onwards.png'))
 plt.show()
 df.to_csv(r"C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\preprocessed_data.csv")
 logger.info("Preprocessed data saved to 'preprocessed_data.csv'.")

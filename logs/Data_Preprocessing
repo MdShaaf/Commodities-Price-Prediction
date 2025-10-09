@@ -869,3 +869,87 @@ Date
 2025-10-07 17:48:56,034 - Data_Preprocessing - INFO - p-value: 0.019625
 2025-10-07 17:48:56,034 - Data_Preprocessing - INFO - The time series is stationary.
 2025-10-07 17:49:02,632 - Data_Preprocessing - INFO - Preprocessed data saved to 'preprocessed_data.csv'.
+2025-10-08 12:52:38,683 - Data_Preprocessing - INFO - Data Preprocessing module initialized.
+2025-10-08 12:52:39,402 - Data_Preprocessing - INFO - Data loaded successfully from C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\agmarknet_data new.xlsx
+2025-10-08 12:52:39,402 - Data_Preprocessing - INFO - Dataset shape: (3483, 10)
+2025-10-08 12:52:39,404 - Data_Preprocessing - INFO - Checking for missing values in each column:
+2025-10-08 12:52:39,405 - Data_Preprocessing - INFO - Missing values found:Removing rows with missing values.
+2025-10-08 12:52:39,407 - Data_Preprocessing - INFO - Dropped rows with missing values.
+2025-10-08 12:52:39,408 - Data_Preprocessing - INFO - Current missing values after dropping: 0    0
+1    0
+2    0
+3    0
+4    0
+5    0
+6    0
+7    0
+8    0
+9    0
+dtype: int64
+2025-10-08 12:52:39,414 - Data_Preprocessing - INFO - No duplicate rows found.
+2025-10-08 12:52:39,414 - Data_Preprocessing - INFO - Found columns : 
+Index(['Sl.No', 'District Name', 'Market Name', 'Commodity', 'Variety',
+       'Grade', 'Min Price', 'Max Price', 'Avg Price', 'Date'],
+      dtype='object')
+2025-10-08 12:52:42,876 - Data_Preprocessing - INFO - Data after selecting 'FAQ' grade and 'Avg Price':
+             Price
+Date              
+2013-04-17  5500.0
+2023-02-06  1900.0
+2013-02-25  2830.0
+2016-08-12  2920.0
+2012-05-18   750.0
+2025-10-08 12:52:52,821 - Data_Preprocessing - INFO - Data after filtering from 2016 onwards:
+                  Price
+Date                   
+2016-01-31  2086.842105
+2016-02-29  2031.944444
+2016-03-31  2037.083333
+2016-04-30  1958.095238
+2016-05-31  2554.347826
+2025-10-08 12:52:52,852 - Data_Preprocessing - INFO - ADF Statistic: -3.214350
+2025-10-08 12:52:52,852 - Data_Preprocessing - INFO - p-value: 0.019169
+2025-10-08 12:52:52,853 - Data_Preprocessing - INFO - The time series is stationary.
+2025-10-08 12:53:15,281 - Data_Preprocessing - INFO - Preprocessed data saved to 'preprocessed_data.csv'.
+2025-10-08 13:01:02,298 - Data_Preprocessing - INFO - Data Preprocessing module initialized.
+2025-10-08 13:01:02,901 - Data_Preprocessing - INFO - Data loaded successfully from C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\agmarknet_data new.xlsx
+2025-10-08 13:01:02,901 - Data_Preprocessing - INFO - Dataset shape: (3483, 10)
+2025-10-08 13:01:02,902 - Data_Preprocessing - INFO - Checking for missing values in each column:
+2025-10-08 13:01:02,902 - Data_Preprocessing - INFO - Missing values found:Removing rows with missing values.
+2025-10-08 13:01:02,906 - Data_Preprocessing - INFO - Dropped rows with missing values.
+2025-10-08 13:01:02,907 - Data_Preprocessing - INFO - Current missing values after dropping: 0    0
+1    0
+2    0
+3    0
+4    0
+5    0
+6    0
+7    0
+8    0
+9    0
+dtype: int64
+2025-10-08 13:01:02,909 - Data_Preprocessing - INFO - No duplicate rows found.
+2025-10-08 13:01:02,910 - Data_Preprocessing - INFO - Found columns : 
+Index(['Sl.No', 'District Name', 'Market Name', 'Commodity', 'Variety',
+       'Grade', 'Min Price', 'Max Price', 'Avg Price', 'Date'],
+      dtype='object')
+2025-10-08 13:01:06,820 - Data_Preprocessing - INFO - Data after selecting 'FAQ' grade and 'Avg Price':
+             Price
+Date              
+2013-04-17  5500.0
+2023-02-06  1900.0
+2013-02-25  2830.0
+2016-08-12  2920.0
+2012-05-18   750.0
+2025-10-08 13:01:13,413 - Data_Preprocessing - INFO - Data after filtering from 2016 onwards:
+                  Price
+Date                   
+2016-01-31  2086.842105
+2016-02-29  2031.944444
+2016-03-31  2037.083333
+2016-04-30  1958.095238
+2016-05-31  2554.347826
+2025-10-08 13:01:13,426 - Data_Preprocessing - INFO - ADF Statistic: -3.214350
+2025-10-08 13:01:13,427 - Data_Preprocessing - INFO - p-value: 0.019169
+2025-10-08 13:01:13,427 - Data_Preprocessing - INFO - The time series is stationary.
+2025-10-08 13:01:29,271 - Data_Preprocessing - INFO - Preprocessed data saved to 'preprocessed_data.csv'.

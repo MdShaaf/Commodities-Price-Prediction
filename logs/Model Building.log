@@ -1,0 +1,184 @@
+2025-10-09 16:32:30,365 - Model Building.log - INFO - Data Preprocessing module initialized.
+2025-10-09 16:36:01,522 - Model Building.log - INFO - Model Building initialized.
+2025-10-09 16:36:01,531 - Model Building.log - INFO - Starting model building process.
+2025-10-09 16:36:01,535 - Model Building.log - INFO - Model built successfully.
+2025-10-09 16:56:44,300 - Model Building.log - INFO - Model Building initialized.
+2025-10-09 16:56:44,304 - Model Building.log - INFO - Starting model building process.
+2025-10-09 16:56:44,305 - Model Building.log - INFO - First let's Grid Search for best p,d,q and P,D,Q Values...
+2025-10-09 16:56:52,096 - Model Building.log - INFO - Best model parameters:                                       SARIMAX Results                                      
+===========================================================================================
+Dep. Variable:                                   y   No. Observations:                  110
+Model:             SARIMAX(1, 0, 1)x(2, 0, [], 12)   Log Likelihood                   4.385
+Date:                             Thu, 09 Oct 2025   AIC                              3.230
+Time:                                     16:56:52   BIC                             19.433
+Sample:                                 01-31-2016   HQIC                             9.802
+                                      - 02-28-2025                                         
+Covariance Type:                               opg                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+intercept      1.3348      0.655      2.037      0.042       0.050       2.619
+ar.L1          0.8326      0.080     10.381      0.000       0.675       0.990
+ma.L1          0.2250      0.104      2.158      0.031       0.021       0.429
+ar.S.L12       0.1756      0.137      1.278      0.201      -0.094       0.445
+ar.S.L24      -0.1709      0.077     -2.225      0.026      -0.321      -0.020
+sigma2         0.0528      0.005     11.520      0.000       0.044       0.062
+===================================================================================
+Ljung-Box (L1) (Q):                   0.00   Jarque-Bera (JB):               257.68
+Prob(Q):                              0.96   Prob(JB):                         0.00
+Heteroskedasticity (H):               2.05   Skew:                            -1.25
+Prob(H) (two-sided):                  0.03   Kurtosis:                        10.07
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+2025-10-09 16:56:52,102 - Model Building.log - INFO - Model built successfully.
+2025-10-09 16:58:22,801 - Model Building.log - INFO - Model Building initialized.
+2025-10-09 16:58:22,804 - Model Building.log - INFO - Starting model building process.
+2025-10-09 16:58:22,805 - Model Building.log - INFO - First let's Grid Search for best p,d,q and P,D,Q Values...
+2025-10-09 16:58:30,334 - Model Building.log - INFO - Best model parameters:                                       SARIMAX Results                                      
+===========================================================================================
+Dep. Variable:                                   y   No. Observations:                  110
+Model:             SARIMAX(1, 0, 1)x(2, 0, [], 12)   Log Likelihood                   4.385
+Date:                             Thu, 09 Oct 2025   AIC                              3.230
+Time:                                     16:58:30   BIC                             19.433
+Sample:                                 01-31-2016   HQIC                             9.802
+                                      - 02-28-2025                                         
+Covariance Type:                               opg                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+intercept      1.3348      0.655      2.037      0.042       0.050       2.619
+ar.L1          0.8326      0.080     10.381      0.000       0.675       0.990
+ma.L1          0.2250      0.104      2.158      0.031       0.021       0.429
+ar.S.L12       0.1756      0.137      1.278      0.201      -0.094       0.445
+ar.S.L24      -0.1709      0.077     -2.225      0.026      -0.321      -0.020
+sigma2         0.0528      0.005     11.520      0.000       0.044       0.062
+===================================================================================
+Ljung-Box (L1) (Q):                   0.00   Jarque-Bera (JB):               257.68
+Prob(Q):                              0.96   Prob(JB):                         0.00
+Heteroskedasticity (H):               2.05   Skew:                            -1.25
+Prob(H) (two-sided):                  0.03   Kurtosis:                        10.07
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+2025-10-09 16:58:30,334 - Model Building.log - INFO - Model built successfully.
+2025-10-09 17:00:29,967 - Model Building.log - INFO - Model Building initialized.
+2025-10-09 17:00:29,970 - Model Building.log - INFO - Starting model building process.
+2025-10-09 17:00:29,971 - Model Building.log - INFO - First let's Grid Search for best p,d,q and P,D,Q Values...
+2025-10-09 17:00:37,830 - Model Building.log - INFO - Best model parameters:                                       SARIMAX Results                                      
+===========================================================================================
+Dep. Variable:                                   y   No. Observations:                  110
+Model:             SARIMAX(1, 0, 1)x(2, 0, [], 12)   Log Likelihood                   4.385
+Date:                             Thu, 09 Oct 2025   AIC                              3.230
+Time:                                     17:00:37   BIC                             19.433
+Sample:                                 01-31-2016   HQIC                             9.802
+                                      - 02-28-2025                                         
+Covariance Type:                               opg                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+intercept      1.3348      0.655      2.037      0.042       0.050       2.619
+ar.L1          0.8326      0.080     10.381      0.000       0.675       0.990
+ma.L1          0.2250      0.104      2.158      0.031       0.021       0.429
+ar.S.L12       0.1756      0.137      1.278      0.201      -0.094       0.445
+ar.S.L24      -0.1709      0.077     -2.225      0.026      -0.321      -0.020
+sigma2         0.0528      0.005     11.520      0.000       0.044       0.062
+===================================================================================
+Ljung-Box (L1) (Q):                   0.00   Jarque-Bera (JB):               257.68
+Prob(Q):                              0.96   Prob(JB):                         0.00
+Heteroskedasticity (H):               2.05   Skew:                            -1.25
+Prob(H) (two-sided):                  0.03   Kurtosis:                        10.07
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+2025-10-09 17:00:50,557 - Model Building.log - INFO - Model built successfully.
+2025-10-09 17:02:05,088 - Model Building.log - INFO - Model Building initialized.
+2025-10-09 17:02:05,092 - Model Building.log - INFO - Starting model building process.
+2025-10-09 17:02:05,092 - Model Building.log - INFO - First let's Grid Search for best p,d,q and P,D,Q Values...
+2025-10-09 17:02:12,582 - Model Building.log - INFO - Best model parameters:                                       SARIMAX Results                                      
+===========================================================================================
+Dep. Variable:                                   y   No. Observations:                  110
+Model:             SARIMAX(1, 0, 1)x(2, 0, [], 12)   Log Likelihood                   4.385
+Date:                             Thu, 09 Oct 2025   AIC                              3.230
+Time:                                     17:02:12   BIC                             19.433
+Sample:                                 01-31-2016   HQIC                             9.802
+                                      - 02-28-2025                                         
+Covariance Type:                               opg                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+intercept      1.3348      0.655      2.037      0.042       0.050       2.619
+ar.L1          0.8326      0.080     10.381      0.000       0.675       0.990
+ma.L1          0.2250      0.104      2.158      0.031       0.021       0.429
+ar.S.L12       0.1756      0.137      1.278      0.201      -0.094       0.445
+ar.S.L24      -0.1709      0.077     -2.225      0.026      -0.321      -0.020
+sigma2         0.0528      0.005     11.520      0.000       0.044       0.062
+===================================================================================
+Ljung-Box (L1) (Q):                   0.00   Jarque-Bera (JB):               257.68
+Prob(Q):                              0.96   Prob(JB):                         0.00
+Heteroskedasticity (H):               2.05   Skew:                            -1.25
+Prob(H) (two-sided):                  0.03   Kurtosis:                        10.07
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+2025-10-09 17:02:15,382 - Model Building.log - INFO - ARIMA model fitted and plotted.
+2025-10-09 17:02:15,382 - Model Building.log - INFO - Evaluating the model...
+2025-10-09 17:02:15,385 - Model Building.log - INFO - R2 Score of the model: 0.8022427383155007
+2025-10-09 17:02:15,386 - Model Building.log - INFO - Model built successfully.
+2025-10-09 17:19:59,469 - Model Building.log - INFO - Model Building initialized.
+2025-10-09 17:19:59,473 - Model Building.log - INFO - Starting model building process.
+2025-10-09 17:19:59,473 - Model Building.log - INFO - First let's Grid Search for best p,d,q and P,D,Q Values...
+2025-10-09 17:20:07,271 - Model Building.log - INFO - Best model parameters: (1, 0, 1) Seasonal order: (2, 0, 0, 12)
+2025-10-09 17:20:13,493 - Model Building.log - INFO - ARIMA model fitted and plotted.
+2025-10-09 17:20:13,496 - Model Building.log - INFO - Evaluating the model...
+2025-10-09 17:20:13,508 - Model Building.log - INFO - MSE of the model: 0.05674642912303666
+2025-10-09 17:20:13,510 - Model Building.log - INFO - MAE of the model: 0.1606285256160912
+2025-10-09 17:20:13,512 - Model Building.log - INFO - R2 Score of the model: 0.8022427383155007
+2025-10-09 17:20:13,513 - Model Building.log - INFO - Model built successfully.
+2025-10-09 17:21:50,667 - Model Building.log - INFO - Model Building initialized.
+2025-10-09 17:21:50,670 - Model Building.log - INFO - Starting model building process.
+2025-10-09 17:21:50,671 - Model Building.log - INFO - First let's Grid Search for best p,d,q and P,D,Q Values...
+2025-10-09 17:21:58,419 - Model Building.log - INFO - Best model parameters: (1, 0, 1) Seasonal order: (2, 0, 0, 12)
+2025-10-09 17:22:01,264 - Model Building.log - INFO - ARIMA model fitted and plotted.
+2025-10-09 17:22:01,265 - Model Building.log - INFO - Evaluating the model...
+2025-10-09 17:22:01,270 - Model Building.log - INFO - MSE of the model: 0.06
+2025-10-09 17:22:01,271 - Model Building.log - INFO - MAE of the model: 0.16
+2025-10-09 17:22:01,272 - Model Building.log - INFO - R2 Score of the model: 0.80
+2025-10-09 17:22:01,272 - Model Building.log - INFO - Model built successfully.
+2025-10-09 18:36:51,493 - Model Building.log - INFO - Model Building initialized.
+2025-10-09 18:36:51,501 - Model Building.log - INFO - Starting model building process.
+2025-10-09 18:36:51,501 - Model Building.log - INFO - First let's Grid Search for best p,d,q and P,D,Q Values...
+2025-10-09 18:37:00,343 - Model Building.log - INFO - Best model parameters: (1, 0, 1) Seasonal order: (2, 0, 0, 12)
+2025-10-09 18:37:03,883 - Model Building.log - INFO - ARIMA model fitted and plotted.
+2025-10-09 18:37:03,883 - Model Building.log - INFO - Evaluating the model...
+2025-10-09 18:37:03,888 - Model Building.log - INFO - MSE of the model: 0.06
+2025-10-09 18:37:03,888 - Model Building.log - INFO - MAE of the model: 0.16
+2025-10-09 18:37:03,889 - Model Building.log - INFO - R2 Score of the model: 0.80
+2025-10-09 18:37:03,889 - Model Building.log - INFO - Now let's try SARIMA model...
+2025-10-09 18:37:08,013 - Model Building.log - INFO - SARIMA model fitted and plotted.
+2025-10-09 18:37:08,014 - Model Building.log - INFO - Evaluating the SARIMA model...
+2025-10-09 18:37:08,018 - Model Building.log - INFO - SARIMA MSE of the model: 0.59
+2025-10-09 18:37:08,018 - Model Building.log - INFO - SARIMA MAE of the model: 0.23
+2025-10-09 18:37:08,018 - Model Building.log - INFO - SARIMA R2 Score of the model: -1.05
+2025-10-09 18:37:08,019 - Model Building.log - INFO - Model built successfully.
+2025-10-09 18:41:19,495 - Model Building.log - INFO - Model Building initialized.
+2025-10-09 18:41:19,499 - Model Building.log - INFO - Starting model building process.
+2025-10-09 18:41:19,500 - Model Building.log - INFO - First let's Grid Search for best p,d,q and P,D,Q Values...
+2025-10-09 18:41:28,713 - Model Building.log - INFO - Best model parameters: (1, 0, 1) Seasonal order: (2, 0, 0, 12)
+2025-10-09 18:41:34,606 - Model Building.log - INFO - ARIMA model fitted and plotted.
+2025-10-09 18:41:34,607 - Model Building.log - INFO - Evaluating the model...
+2025-10-09 18:41:34,615 - Model Building.log - INFO - MSE of the model: 0.06
+2025-10-09 18:41:34,616 - Model Building.log - INFO - MAE of the model: 0.16
+2025-10-09 18:41:34,616 - Model Building.log - INFO - R2 Score of the model: 0.80
+2025-10-09 18:41:34,616 - Model Building.log - INFO - Now let's try SARIMA model...
+2025-10-09 18:41:37,143 - Model Building.log - INFO - SARIMA model fitted and plotted.
+2025-10-09 18:41:37,143 - Model Building.log - INFO - Evaluating the SARIMA model...
+2025-10-09 18:41:37,147 - Model Building.log - INFO - SARIMA MSE of the model: 0.59
+2025-10-09 18:41:37,147 - Model Building.log - INFO - SARIMA MAE of the model: 0.23
+2025-10-09 18:41:37,147 - Model Building.log - INFO - SARIMA R2 Score of the model: -1.05
+2025-10-09 18:41:37,148 - Model Building.log - INFO - ARIMA model performs better than SARIMA model.
+2025-10-09 18:41:37,149 - Model Building.log - INFO - Model built successfully.
