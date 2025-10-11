@@ -92,17 +92,17 @@ def build_model(data):
         if sarima_score > arima_score:
             logger.info("SARIMAX model performs better than ARIMA model.")
             print("SARIMAX model performs better than ARIMA model.")
-            final_model = sarima_result
+            return sarima_result
         else:
             logger.info("ARIMA model performs better than SARIMAX model.")
             print("ARIMA model performs better than SARIMAX model.")
-            final_model = arima_result
+            return arima_result
         # Simulate model building steps
         # e.g., splitting data, training model, evaluating model
         logger.info("Model built successfully.")
     except Exception as e:
         logger.error(f"Error during model building: {e}")
         raise
-
+       
 data=pd.read_csv(r"C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\preprocessed_data.csv",parse_dates=['Date'], index_col='Date')
 build_model(data)

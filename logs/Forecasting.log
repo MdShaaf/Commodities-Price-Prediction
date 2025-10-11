@@ -1,0 +1,25 @@
+2025-10-11 12:53:06,116 - Forecasting.log - INFO - Beginning the Forecast.
+2025-10-11 12:54:57,024 - Forecasting.log - INFO - Beginning the Forecast.
+2025-10-11 12:54:57,033 - Forecasting.log - INFO - Starting the forecasting process.
+2025-10-11 12:55:10,565 - Forecasting.log - INFO - Forecasting completed successfully.
+2025-10-11 12:58:23,795 - Forecasting.log - INFO - Beginning the Forecast.
+2025-10-11 12:58:23,801 - Forecasting.log - INFO - Starting the forecasting process.
+2025-10-11 12:58:33,721 - Forecasting.log - INFO - Forecasting completed successfully.
+2025-10-11 12:58:33,740 - Forecasting.log - ERROR - Error during forecasting: name 'go' is not defined
+2025-10-11 12:59:30,931 - Forecasting.log - INFO - Beginning the Forecast.
+2025-10-11 12:59:30,934 - Forecasting.log - INFO - Starting the forecasting process.
+2025-10-11 12:59:41,459 - Forecasting.log - INFO - Forecasting completed successfully.
+2025-10-11 12:59:41,514 - Forecasting.log - ERROR - Error during forecasting: name 'data_actual' is not defined
+2025-10-11 13:05:21,944 - Forecasting.log - INFO - Beginning the Forecast.
+2025-10-11 13:05:21,947 - Forecasting.log - INFO - Starting the forecasting process.
+2025-10-11 13:05:36,134 - Forecasting.log - INFO - Forecasting completed successfully.
+2025-10-11 13:05:36,191 - Forecasting.log - ERROR - Error during forecasting: 'Forecasted'
+2025-10-11 13:06:28,419 - Forecasting.log - INFO - Beginning the Forecast.
+2025-10-11 13:06:28,427 - Forecasting.log - INFO - Starting the forecasting process.
+2025-10-11 13:06:39,273 - Forecasting.log - INFO - Forecasting completed successfully.
+2025-10-11 13:10:13,665 - Forecasting.log - INFO - Beginning the Forecast.
+2025-10-11 13:10:13,673 - Forecasting.log - INFO - Starting the forecasting process.
+2025-10-11 13:10:24,343 - Forecasting.log - INFO - Forecasting completed successfully.
+2025-10-11 13:12:10,156 - Forecasting.log - INFO - Beginning the Forecast.
+2025-10-11 13:12:10,160 - Forecasting.log - INFO - Starting the forecasting process.
+2025-10-11 13:12:21,578 - Forecasting.log - INFO - Forecasting completed successfully.
