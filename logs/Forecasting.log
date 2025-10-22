@@ -48,3 +48,22 @@
 2025-10-22 17:13:52,708 - Forecasting.log - INFO - Model loaded successfully from models\ARIMA_Model.pkl
 2025-10-22 17:13:52,734 - Forecasting.log - INFO - Forecasting completed successfully.
 2025-10-22 17:15:14,874 - Forecasting.log - INFO - Forecasted prices saved to forecasts/forecasted_prices.csv
+2025-10-22 17:44:51,314 - Forecasting.log - INFO - Beginning the Forecast.
+2025-10-22 17:44:51,329 - Forecasting.log - INFO - Starting the forecasting process.
+2025-10-22 17:44:51,330 - Forecasting.log - INFO - Loading ARIMA model...
+2025-10-22 17:44:51,604 - Forecasting.log - INFO - Model loaded successfully from models\ARIMA_Model.pkl
+2025-10-22 17:44:51,618 - Forecasting.log - INFO - Forecasting completed successfully.
+2025-10-22 17:46:46,778 - Forecasting.log - INFO - Forecasted prices saved to forecasts/forecasted_prices.csv
+2025-10-22 17:55:33,345 - Forecasting.log - INFO - Beginning the Forecast.
+2025-10-22 17:55:33,363 - Forecasting.log - INFO - Starting the forecasting process.
+2025-10-22 17:55:33,365 - Forecasting.log - INFO - Loading ARIMA model...
+2025-10-22 17:55:33,672 - Forecasting.log - INFO - Model loaded successfully from models\ARIMA_Model.pkl
+2025-10-22 17:55:33,696 - Forecasting.log - INFO - Forecasting completed successfully.
+2025-10-22 17:55:34,395 - Forecasting.log - INFO - Interactive forecast plot saved to plots\interactive_forecast.html
+2025-10-22 17:58:14,463 - Forecasting.log - INFO - Beginning the Forecast.
+2025-10-22 17:58:14,475 - Forecasting.log - INFO - Starting the forecasting process.
+2025-10-22 17:58:14,476 - Forecasting.log - INFO - Loading ARIMA model...
+2025-10-22 17:58:14,828 - Forecasting.log - INFO - Model loaded successfully from models\ARIMA_Model.pkl
+2025-10-22 17:58:14,840 - Forecasting.log - INFO - Forecasting completed successfully.
+2025-10-22 17:58:15,895 - Forecasting.log - INFO - Interactive forecast plot saved to plots\interactive_forecast.html
+2025-10-22 17:58:16,604 - Forecasting.log - INFO - Forecasted prices saved to forecasts/forecasted_prices.csv

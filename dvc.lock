@@ -47,18 +47,14 @@ stages:
   Forecasting:
     cmd: python src/Forecasting.py
     deps:
-    - path: Data/Preprocessed/preprocessed_data.csv
-      hash: md5
-      md5: 119bc8041e1694f207231ce7dc796807
-      size: 3302
     - path: models/ARIMA_Model.pkl
       hash: md5
       md5: 4bbab67c07bd483024cba66b413b6564
       size: 194313
     - path: src/Forecasting.py
       hash: md5
-      md5: c26355f233fc8ced7f4ea11f6f2d892c
-      size: 4957
+      md5: ab6bb3102a1a8ab93c1c62823c60afc8
+      size: 5407
     outs:
     - path: Outs/forecasted_prices.csv
       hash: md5

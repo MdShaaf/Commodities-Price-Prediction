@@ -8,6 +8,8 @@ import warnings
 import pickle
 import plotly.graph_objects as go
 warnings.filterwarnings("ignore")
+import html
+import webbrowser
 
 # Setting up logging
 log_dir = 'logs'
@@ -128,8 +130,15 @@ def forecast_prices(data, steps=30):
             yaxis_title="Price",
             hovermode="x unified"
         )
+        html_file_path = os.path.join(plot_dir, 'interactive_forecast.html')
+        fig.write_html(html_file_path)
+        print(f"Interactive forecast plot saved to {html_file_path}")
 
-        fig.show()
+        # Optionally, open automatically in browser
+        webbrowser.open('file://' + os.path.realpath(html_file_path))
+        
+        logger.info(f"Interactive forecast plot saved to {html_file_path}")
+        fig.show(renderer="browser")
         forecast_df.to_csv(os.path.join(output_dir, 'forecasted_prices.csv'))
         logger.info("Forecasted prices saved to forecasts/forecasted_prices.csv")
         return forecast_df
