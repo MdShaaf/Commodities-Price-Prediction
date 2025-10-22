@@ -1,0 +1,42 @@
+2025-10-22 13:30:37,284 - DataIngestionLogger - INFO - Configuring Chrome in headless mode.
+2025-10-22 13:30:37,285 - DataIngestionLogger - INFO - Starting a new headless Chrome session.
+2025-10-22 13:30:43,579 - DataIngestionLogger - INFO - Chrome session started successfully.
+2025-10-22 13:30:43,579 - DataIngestionLogger - INFO - Navigating to agmarknet.gov.in
+2025-10-22 13:30:55,593 - DataIngestionLogger - INFO - Navigation successful.
+2025-10-22 13:30:55,595 - DataIngestionLogger - INFO - Navigated to agmarknet.gov.in
+2025-10-22 13:30:58,596 - DataIngestionLogger - INFO - Interacting with dropdown menus, Selecting Commodity(Ginger)
+2025-10-22 13:31:00,718 - DataIngestionLogger - INFO - Selecting States
+2025-10-22 13:31:03,835 - DataIngestionLogger - INFO - Selecting District(Bangalore) and Market(Bangalore)
+2025-10-22 13:31:10,044 - DataIngestionLogger - INFO - Entering Date(01-01-2010)
+2025-10-22 13:31:13,264 - DataIngestionLogger - INFO - Submitting the form
+2025-10-22 13:31:23,790 - DataIngestionLogger - INFO - Number of rows found: 3483
+2025-10-22 13:31:23,790 - DataIngestionLogger - INFO - Extracting data from table, row by row, this may take a while...Please wait...
+2025-10-22 13:38:54,821 - DataIngestionLogger - INFO - Data extraction complete.
+2025-10-22 13:51:08,739 - DataIngestionLogger - INFO - Configuring Chrome in headless mode.
+2025-10-22 13:51:08,740 - DataIngestionLogger - INFO - Starting a new headless Chrome session.
+2025-10-22 13:51:12,060 - DataIngestionLogger - INFO - Chrome session started successfully.
+2025-10-22 13:51:12,062 - DataIngestionLogger - INFO - Navigating to agmarknet.gov.in
+2025-10-22 13:51:24,386 - DataIngestionLogger - INFO - Navigation successful.
+2025-10-22 13:51:24,387 - DataIngestionLogger - INFO - Navigated to agmarknet.gov.in
+2025-10-22 13:51:27,388 - DataIngestionLogger - INFO - Interacting with dropdown menus, Selecting Commodity(Ginger)
+2025-10-22 13:51:29,500 - DataIngestionLogger - INFO - Selecting States
+2025-10-22 13:51:32,635 - DataIngestionLogger - INFO - Selecting District(Bangalore) and Market(Bangalore)
+2025-10-22 13:51:38,888 - DataIngestionLogger - INFO - Entering Date(01-01-2010)
+2025-10-22 13:51:42,152 - DataIngestionLogger - INFO - Submitting the form
+2025-10-22 13:51:46,839 - DataIngestionLogger - INFO - Number of rows found: 3483
+2025-10-22 13:51:46,840 - DataIngestionLogger - INFO - Extracting data from table, row by row, this may take a while...Please wait...
+2025-10-22 13:59:42,188 - DataIngestionLogger - INFO - Data extraction complete.
+2025-10-22 14:19:20,679 - DataIngestionLogger - INFO - Configuring Chrome in headless mode.
+2025-10-22 14:19:20,679 - DataIngestionLogger - INFO - Starting a new headless Chrome session.
+2025-10-22 14:19:23,936 - DataIngestionLogger - INFO - Chrome session started successfully.
+2025-10-22 14:19:23,937 - DataIngestionLogger - INFO - Navigating to agmarknet.gov.in
+2025-10-22 14:19:36,837 - DataIngestionLogger - INFO - Navigation successful.
+2025-10-22 14:19:36,841 - DataIngestionLogger - INFO - Navigated to agmarknet.gov.in
+2025-10-22 14:19:39,843 - DataIngestionLogger - INFO - Interacting with dropdown menus, Selecting Commodity(Ginger)
+2025-10-22 14:19:41,977 - DataIngestionLogger - INFO - Selecting States
+2025-10-22 14:19:45,169 - DataIngestionLogger - INFO - Selecting District(Bangalore) and Market(Bangalore)
+2025-10-22 14:19:51,356 - DataIngestionLogger - INFO - Entering Date(01-01-2010)
+2025-10-22 14:19:54,615 - DataIngestionLogger - INFO - Submitting the form
+2025-10-22 14:19:58,736 - DataIngestionLogger - INFO - Number of rows found: 3483
+2025-10-22 14:19:58,737 - DataIngestionLogger - INFO - Extracting data from table, row by row, this may take a while...Please wait...
+2025-10-22 14:28:21,413 - DataIngestionLogger - INFO - Data extraction complete.

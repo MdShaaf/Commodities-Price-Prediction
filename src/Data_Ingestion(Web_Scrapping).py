@@ -10,6 +10,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 import os
 import logging
+from tqdm import tqdm
 
 # Setting up logging
 log_dir = 'logs'
@@ -35,7 +36,7 @@ logger.addHandler(console_handler)
 logger.addHandler(file_handler)
 
 #checking if the data file already exists
-file_name = r"C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\agmarknet_data new.xlsx"
+file_name = r"C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\Raw\agmarknet_data new.xlsx"
 if os.path.exists(file_name):
     print(f"Data File  already exists. Exiting to avoid overwriting.")
     # exit()
@@ -51,6 +52,7 @@ else:
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--window-size=1920,1080")
+    chrome_options.add_experimental_option("excludeSwitches", ["enable-logging"])  # hides DevTools logs
 
     # Start Chrome session
     logger.info("Starting a new headless Chrome session.")
@@ -111,19 +113,17 @@ else:
     logger.info(f"Number of rows found: {len(table_rows)}")
     # Iterate through rows and extract cell data
     logger.info("Extracting data from table, row by row, this may take a while...Please wait...")
-    for rw in table_rows:
+    for rw in tqdm(table_rows, desc="Extracting rows", unit="row", ncols=100, colour="green"):
         cells = rw.find_elements(By.TAG_NAME, 'td')
-        row_data = []
-        for cell in cells:
-            text_data = cell.text.strip()
-            row_data.append(text_data)
+        row_data = [cell.text.strip() for cell in cells]
         data.append(row_data)
+
     driver.quit() # Close the browser
     # Convert to DataFrame
     df = pd.DataFrame(data)
    
     logger.info("Data extraction complete.")
     # Export to Excel
-    df.to_excel(r"C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\agmarknet_data new.xlsx", index=False)
+    df.to_excel(r"C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\Raw\agmarknet_data new.xlsx", index=False)
 
     print("✅ Data exported to agmarknet_data.xlsx")

@@ -1,0 +1,30 @@
+stages:
+  Web_Scrapping:
+    cmd: python src/Data_Ingestion(Web_Scrapping).py
+    deps:
+      - src/Data_Ingestion(Web_Scrapping).py
+    outs:
+    - Data\Raw\agmarknet_data new.xlsx
+
+  Data_preprocessing:
+    cmd: python src/Data_Preporcessing.py
+    deps:
+      - src/Data_Preporcessing.py
+      - Data\Raw\agmarknet_data new.xlsx
+    outs:
+    - Data\Preprocessed\preprocessed_data.csv
+
+  Model_Building:
+    cmd: python src/Model_Building.py
+    deps:
+      - src/Model_Building.py
+      - Data\Preprocessed\preprocessed_data.csv
+    outs:
+    - models/ARIMA_Model.pkl
+
+  Forecasting:
+    cmd: python src/Forecasting.py
+    deps:
+      - src/Forecasting.py
+    # outs:
+    #   - forecasts/forecasted_prices.csv

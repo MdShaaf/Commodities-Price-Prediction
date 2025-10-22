@@ -1,0 +1,53 @@
+schema: '2.0'
+stages:
+  Web_Scrapping:
+    cmd: python src/Data_Ingestion(Web_Scrapping).py
+    deps:
+    - path: src/Data_Ingestion(Web_Scrapping).py
+      hash: md5
+      md5: daff04ea2d07b990c25176a604046fff
+      size: 5513
+    outs:
+    - path: Data\Raw\agmarknet_data new.xlsx
+      hash: md5
+      md5: 3b3160d49af376b71259e86c0885f57f
+      size: 140198
+  Data_preprocessing:
+    cmd: python src/Data_Preporcessing.py
+    deps:
+    - path: Data\Raw\agmarknet_data new.xlsx
+      hash: md5
+      md5: 3b3160d49af376b71259e86c0885f57f
+      size: 140198
+    - path: src/Data_Preporcessing.py
+      hash: md5
+      md5: 16c476af61f0b0c5ac6500ca2ae32cc1
+      size: 6753
+    outs:
+    - path: Data\Preprocessed\preprocessed_data.csv
+      hash: md5
+      md5: 119bc8041e1694f207231ce7dc796807
+      size: 3302
+  Model_Building:
+    cmd: python src/Model_Building.py
+    deps:
+    - path: Data\Preprocessed\preprocessed_data.csv
+      hash: md5
+      md5: 119bc8041e1694f207231ce7dc796807
+      size: 3302
+    - path: src/Model_Building.py
+      hash: md5
+      md5: 162541721bf062012b94264e39efaa98
+      size: 5866
+    outs:
+    - path: models/ARIMA_Model.pkl
+      hash: md5
+      md5: 4bbab67c07bd483024cba66b413b6564
+      size: 194313
+  Forecasting:
+    cmd: python src/Forecasting.py
+    deps:
+    - path: src/Forecasting.py
+      hash: md5
+      md5: c2a8246a6d7538e564e349a4f13f4f42
+      size: 4744

@@ -11,7 +11,7 @@ import pmdarima as pm
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 import warnings
 warnings.filterwarnings("ignore")
-
+import pickle 
 # Setting up logging
 log_dir = 'logs'
 os.makedirs(log_dir, exist_ok=True)
@@ -36,6 +36,8 @@ logger.addHandler(file_handler)
 
 logger.info("Model Building initialized.")
 # Example function to demonstrate model building logging
+plot_dir = 'plots'
+os.makedirs(plot_dir, exist_ok=True)
 def build_model(data):
     try:
         # Placeholder for model building logic
@@ -57,7 +59,6 @@ def build_model(data):
         plt.plot(data.index, arima_result.fittedvalues, color='red', label='Fitted')
         plt.title('ARIMA Model Fit')
         plt.legend()
-        plt.show()
         logger.info("ARIMA model fitted and plotted.")
         #Evaluate the model
         logger.info("Evaluating the model...")
@@ -77,9 +78,9 @@ def build_model(data):
         plt.plot(data.index, sarima_result.fittedvalues, color='green', label='Fitted SARIMA')
         plt.title('SARIMA Model Fit')
         plt.legend()
-        plt.show()
+        plt.savefig(os.path.join(plot_dir, 'SARIMA_Model_Fit.png'))
         logger.info("SARIMA model fitted and plotted.")
-        #Evaluate the SARIMA model
+                #Evaluate the SARIMA model
         logger.info("Evaluating the SARIMA model...")
         sarima_score=r2_score(data['Price'], sarima_result.fittedvalues)
         sarima_mse=mean_squared_error(data['Price'], sarima_result.fittedvalues)
@@ -89,14 +90,29 @@ def build_model(data):
         logger.info(f"SARIMA R2 Score of the Sarimax model: {sarima_score:.2f}")
 
         #choose the best model based on R2 Score
+        # Choose and save the best model based on R2 Score
         if sarima_score > arima_score:
             logger.info("SARIMAX model performs better than ARIMA model.")
             print("SARIMAX model performs better than ARIMA model.")
-            return sarima_result
+            best_result = sarima_result
+            model_name = 'SARIMAX_Model.pkl'
         else:
             logger.info("ARIMA model performs better than SARIMAX model.")
             print("ARIMA model performs better than SARIMAX model.")
-            return arima_result
+            best_result = arima_result
+            model_name = 'ARIMA_Model.pkl'
+
+        # Save the model
+        os.makedirs('models', exist_ok=True)
+        model_path = os.path.join('models', model_name)
+        with open(model_path, 'wb') as f:
+            pickle.dump(best_result, f)
+
+        logger.info(f"Model saved at {model_path}")
+        print(f"Model saved at {model_path}")
+
+        return best_result  # Now return after saving
+        
         # Simulate model building steps
         # e.g., splitting data, training model, evaluating model
         logger.info("Model built successfully.")
@@ -104,5 +120,5 @@ def build_model(data):
         logger.error(f"Error during model building: {e}")
         raise
        
-data=pd.read_csv(r"C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\preprocessed_data.csv",parse_dates=['Date'], index_col='Date')
+data=pd.read_csv(r"C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\Preprocessed\preprocessed_data.csv",parse_dates=['Date'], index_col='Date')
 build_model(data)

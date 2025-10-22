@@ -23,3 +23,16 @@
 2025-10-11 13:12:10,156 - Forecasting.log - INFO - Beginning the Forecast.
 2025-10-11 13:12:10,160 - Forecasting.log - INFO - Starting the forecasting process.
 2025-10-11 13:12:21,578 - Forecasting.log - INFO - Forecasting completed successfully.
+2025-10-22 13:45:51,231 - Forecasting.log - INFO - Beginning the Forecast.
+2025-10-22 13:45:51,237 - Forecasting.log - INFO - Starting the forecasting process.
+2025-10-22 13:46:11,176 - Forecasting.log - INFO - Forecasting completed successfully.
+2025-10-22 15:01:12,311 - Forecasting.log - INFO - Beginning the Forecast.
+2025-10-22 15:01:12,326 - Forecasting.log - INFO - Starting the forecasting process.
+2025-10-22 15:01:12,335 - Forecasting.log - INFO - Loading ARIMA model...
+2025-10-22 15:01:12,897 - Forecasting.log - INFO - Model loaded successfully from models\ARIMA_Model.pkl
+2025-10-22 15:01:12,913 - Forecasting.log - INFO - Forecasting completed successfully.
+2025-10-22 15:05:24,484 - Forecasting.log - INFO - Beginning the Forecast.
+2025-10-22 15:05:24,491 - Forecasting.log - INFO - Starting the forecasting process.
+2025-10-22 15:05:24,492 - Forecasting.log - INFO - Loading ARIMA model...
+2025-10-22 15:05:24,873 - Forecasting.log - INFO - Model loaded successfully from models\ARIMA_Model.pkl
+2025-10-22 15:05:24,879 - Forecasting.log - INFO - Forecasting completed successfully.

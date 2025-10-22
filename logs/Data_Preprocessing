@@ -953,3 +953,194 @@ Date
 2025-10-08 13:01:13,427 - Data_Preprocessing - INFO - p-value: 0.019169
 2025-10-08 13:01:13,427 - Data_Preprocessing - INFO - The time series is stationary.
 2025-10-08 13:01:29,271 - Data_Preprocessing - INFO - Preprocessed data saved to 'preprocessed_data.csv'.
+2025-10-22 13:39:04,911 - Data_Preprocessing - INFO - Data Preprocessing module initialized.
+2025-10-22 13:39:06,584 - Data_Preprocessing - INFO - Data loaded successfully from C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\Raw\agmarknet_data new.xlsx
+2025-10-22 13:39:06,585 - Data_Preprocessing - INFO - Dataset shape: (3483, 10)
+2025-10-22 13:39:06,587 - Data_Preprocessing - INFO - Checking for missing values in each column:
+2025-10-22 13:39:06,588 - Data_Preprocessing - INFO - Missing values found:Removing rows with missing values.
+2025-10-22 13:39:06,595 - Data_Preprocessing - INFO - Dropped rows with missing values.
+2025-10-22 13:39:06,598 - Data_Preprocessing - INFO - Current missing values after dropping: 0    0
+1    0
+2    0
+3    0
+4    0
+5    0
+6    0
+7    0
+8    0
+9    0
+dtype: int64
+2025-10-22 13:39:06,634 - Data_Preprocessing - INFO - No duplicate rows found.
+2025-10-22 13:39:06,641 - Data_Preprocessing - INFO - Found columns : 
+Index(['Sl.No', 'District Name', 'Market Name', 'Commodity', 'Variety',
+       'Grade', 'Min Price', 'Max Price', 'Avg Price', 'Date'],
+      dtype='object')
+2025-10-22 13:39:07,561 - Data_Preprocessing - INFO - Plotted Min, Max and Avg Prices for comparison.
+2025-10-22 13:39:07,577 - Data_Preprocessing - INFO - Data after selecting 'FAQ' grade and 'Avg Price':
+             Price
+Date              
+2013-04-17  5500.0
+2023-02-06  1900.0
+2013-02-25  2830.0
+2016-08-12  2920.0
+2012-05-18   750.0
+2025-10-22 13:41:02,042 - Data_Preprocessing - INFO - Plotted Monthly Resampled Average Prices.
+2025-10-22 13:41:02,424 - Data_Preprocessing - INFO - Plotted Monthly Resampled Average Prices from 2016 onwards.
+2025-10-22 13:41:02,431 - Data_Preprocessing - INFO - Data after filtering from 2016 onwards:
+                  Price
+Date                   
+2016-01-31  2086.842105
+2016-02-29  2031.944444
+2016-03-31  2037.083333
+2016-04-30  1958.095238
+2016-05-31  2554.347826
+2025-10-22 13:41:02,481 - Data_Preprocessing - INFO - ADF Statistic: -3.214350
+2025-10-22 13:41:02,483 - Data_Preprocessing - INFO - p-value: 0.019169
+2025-10-22 13:41:02,484 - Data_Preprocessing - INFO - The time series is stationary.
+2025-10-22 13:41:03,816 - Data_Preprocessing - INFO - Plotted Seasonal Decomposition of Prices.
+2025-10-22 13:41:04,064 - Data_Preprocessing - INFO - Plotted Monthly Log Transformed Resampled Average Prices from 2016 onwards.
+2025-10-22 13:41:04,084 - Data_Preprocessing - INFO - Preprocessed data saved to 'preprocessed_data.csv'.
+2025-10-22 13:59:51,185 - Data_Preprocessing - INFO - Data Preprocessing module initialized.
+2025-10-22 13:59:52,699 - Data_Preprocessing - INFO - Data loaded successfully from C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\Raw\agmarknet_data new.xlsx
+2025-10-22 13:59:52,699 - Data_Preprocessing - INFO - Dataset shape: (3483, 10)
+2025-10-22 13:59:52,701 - Data_Preprocessing - INFO - Checking for missing values in each column:
+2025-10-22 13:59:52,702 - Data_Preprocessing - INFO - Missing values found:Removing rows with missing values.
+2025-10-22 13:59:52,705 - Data_Preprocessing - INFO - Dropped rows with missing values.
+2025-10-22 13:59:52,708 - Data_Preprocessing - INFO - Current missing values after dropping: 0    0
+1    0
+2    0
+3    0
+4    0
+5    0
+6    0
+7    0
+8    0
+9    0
+dtype: int64
+2025-10-22 13:59:52,712 - Data_Preprocessing - INFO - No duplicate rows found.
+2025-10-22 13:59:52,715 - Data_Preprocessing - INFO - Found columns : 
+Index(['Sl.No', 'District Name', 'Market Name', 'Commodity', 'Variety',
+       'Grade', 'Min Price', 'Max Price', 'Avg Price', 'Date'],
+      dtype='object')
+2025-10-22 13:59:53,334 - Data_Preprocessing - INFO - Plotted Min, Max and Avg Prices for comparison.
+2025-10-22 13:59:53,372 - Data_Preprocessing - INFO - Data after selecting 'FAQ' grade and 'Avg Price':
+             Price
+Date              
+2013-04-17  5500.0
+2023-02-06  1900.0
+2013-02-25  2830.0
+2016-08-12  2920.0
+2012-05-18   750.0
+2025-10-22 13:59:53,563 - Data_Preprocessing - INFO - Plotted Boxplot of Prices to check for outliers.
+2025-10-22 13:59:53,717 - Data_Preprocessing - INFO - Plotted Monthly Resampled Average Prices.
+2025-10-22 13:59:53,860 - Data_Preprocessing - INFO - Plotted Monthly Resampled Average Prices from 2016 onwards.
+2025-10-22 13:59:53,884 - Data_Preprocessing - INFO - Data after filtering from 2016 onwards:
+                  Price
+Date                   
+2016-01-31  2086.842105
+2016-02-29  2031.944444
+2016-03-31  2037.083333
+2016-04-30  1958.095238
+2016-05-31  2554.347826
+2025-10-22 13:59:53,906 - Data_Preprocessing - INFO - ADF Statistic: -3.214350
+2025-10-22 13:59:53,910 - Data_Preprocessing - INFO - p-value: 0.019169
+2025-10-22 13:59:53,911 - Data_Preprocessing - INFO - The time series is stationary.
+2025-10-22 13:59:55,310 - Data_Preprocessing - INFO - Plotted Seasonal Decomposition of Prices.
+2025-10-22 13:59:55,663 - Data_Preprocessing - INFO - Plotted Monthly Log Transformed Resampled Average Prices from 2016 onwards.
+2025-10-22 13:59:55,678 - Data_Preprocessing - INFO - Preprocessed data saved to 'preprocessed_data.csv'.
+2025-10-22 14:28:28,387 - Data_Preprocessing - INFO - Data Preprocessing module initialized.
+2025-10-22 14:28:29,758 - Data_Preprocessing - INFO - Data loaded successfully from C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\Raw\agmarknet_data new.xlsx
+2025-10-22 14:28:29,759 - Data_Preprocessing - INFO - Dataset shape: (3483, 10)
+2025-10-22 14:28:29,761 - Data_Preprocessing - INFO - Checking for missing values in each column:
+2025-10-22 14:28:29,761 - Data_Preprocessing - INFO - Missing values found:Removing rows with missing values.
+2025-10-22 14:28:29,763 - Data_Preprocessing - INFO - Dropped rows with missing values.
+2025-10-22 14:28:29,767 - Data_Preprocessing - INFO - Current missing values after dropping: 0    0
+1    0
+2    0
+3    0
+4    0
+5    0
+6    0
+7    0
+8    0
+9    0
+dtype: int64
+2025-10-22 14:28:29,776 - Data_Preprocessing - INFO - No duplicate rows found.
+2025-10-22 14:28:29,777 - Data_Preprocessing - INFO - Found columns : 
+Index(['Sl.No', 'District Name', 'Market Name', 'Commodity', 'Variety',
+       'Grade', 'Min Price', 'Max Price', 'Avg Price', 'Date'],
+      dtype='object')
+2025-10-22 14:28:30,278 - Data_Preprocessing - INFO - Plotted Min, Max and Avg Prices for comparison.
+2025-10-22 14:28:30,286 - Data_Preprocessing - INFO - Data after selecting 'FAQ' grade and 'Avg Price':
+             Price
+Date              
+2013-04-17  5500.0
+2023-02-06  1900.0
+2013-02-25  2830.0
+2016-08-12  2920.0
+2012-05-18   750.0
+2025-10-22 14:28:30,404 - Data_Preprocessing - INFO - Plotted Boxplot of Prices to check for outliers.
+2025-10-22 14:28:30,602 - Data_Preprocessing - INFO - Plotted Monthly Resampled Average Prices.
+2025-10-22 14:28:30,738 - Data_Preprocessing - INFO - Plotted Monthly Resampled Average Prices from 2016 onwards.
+2025-10-22 14:28:30,741 - Data_Preprocessing - INFO - Data after filtering from 2016 onwards:
+                  Price
+Date                   
+2016-01-31  2086.842105
+2016-02-29  2031.944444
+2016-03-31  2037.083333
+2016-04-30  1958.095238
+2016-05-31  2554.347826
+2025-10-22 14:28:30,755 - Data_Preprocessing - INFO - ADF Statistic: -3.214350
+2025-10-22 14:28:30,755 - Data_Preprocessing - INFO - p-value: 0.019169
+2025-10-22 14:28:30,755 - Data_Preprocessing - INFO - The time series is stationary.
+2025-10-22 14:28:31,618 - Data_Preprocessing - INFO - Plotted Seasonal Decomposition of Prices.
+2025-10-22 14:28:31,854 - Data_Preprocessing - INFO - Plotted Monthly Log Transformed Resampled Average Prices from 2016 onwards.
+2025-10-22 14:28:31,863 - Data_Preprocessing - INFO - Preprocessed data saved to 'preprocessed_data.csv'.
+2025-10-22 15:05:02,557 - Data_Preprocessing - INFO - Data Preprocessing module initialized.
+2025-10-22 15:05:03,328 - Data_Preprocessing - INFO - Data loaded successfully from C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\Raw\agmarknet_data new.xlsx
+2025-10-22 15:05:03,328 - Data_Preprocessing - INFO - Dataset shape: (3483, 10)
+2025-10-22 15:05:03,330 - Data_Preprocessing - INFO - Checking for missing values in each column:
+2025-10-22 15:05:03,331 - Data_Preprocessing - INFO - Missing values found:Removing rows with missing values.
+2025-10-22 15:05:03,333 - Data_Preprocessing - INFO - Dropped rows with missing values.
+2025-10-22 15:05:03,335 - Data_Preprocessing - INFO - Current missing values after dropping: 0    0
+1    0
+2    0
+3    0
+4    0
+5    0
+6    0
+7    0
+8    0
+9    0
+dtype: int64
+2025-10-22 15:05:03,340 - Data_Preprocessing - INFO - No duplicate rows found.
+2025-10-22 15:05:03,341 - Data_Preprocessing - INFO - Found columns : 
+Index(['Sl.No', 'District Name', 'Market Name', 'Commodity', 'Variety',
+       'Grade', 'Min Price', 'Max Price', 'Avg Price', 'Date'],
+      dtype='object')
+2025-10-22 15:05:03,767 - Data_Preprocessing - INFO - Plotted Min, Max and Avg Prices for comparison.
+2025-10-22 15:05:03,773 - Data_Preprocessing - INFO - Data after selecting 'FAQ' grade and 'Avg Price':
+             Price
+Date              
+2013-04-17  5500.0
+2023-02-06  1900.0
+2013-02-25  2830.0
+2016-08-12  2920.0
+2012-05-18   750.0
+2025-10-22 15:05:03,844 - Data_Preprocessing - INFO - Plotted Boxplot of Prices to check for outliers.
+2025-10-22 15:05:03,937 - Data_Preprocessing - INFO - Plotted Monthly Resampled Average Prices.
+2025-10-22 15:05:04,008 - Data_Preprocessing - INFO - Plotted Monthly Resampled Average Prices from 2016 onwards.
+2025-10-22 15:05:04,011 - Data_Preprocessing - INFO - Data after filtering from 2016 onwards:
+                  Price
+Date                   
+2016-01-31  2086.842105
+2016-02-29  2031.944444
+2016-03-31  2037.083333
+2016-04-30  1958.095238
+2016-05-31  2554.347826
+2025-10-22 15:05:04,025 - Data_Preprocessing - INFO - ADF Statistic: -3.214350
+2025-10-22 15:05:04,027 - Data_Preprocessing - INFO - p-value: 0.019169
+2025-10-22 15:05:04,027 - Data_Preprocessing - INFO - The time series is stationary.
+2025-10-22 15:05:04,476 - Data_Preprocessing - INFO - Plotted Seasonal Decomposition of Prices.
+2025-10-22 15:05:04,576 - Data_Preprocessing - INFO - Plotted Monthly Log Transformed Resampled Average Prices from 2016 onwards.
+2025-10-22 15:05:04,582 - Data_Preprocessing - INFO - Preprocessed data saved to 'preprocessed_data.csv'.

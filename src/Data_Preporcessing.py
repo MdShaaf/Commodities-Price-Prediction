@@ -33,7 +33,7 @@ logger.addHandler(file_handler)
 logger.info("Data Preprocessing module initialized.")
 
 #Reading the data
-data_file_path = r"C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\agmarknet_data new.xlsx"
+data_file_path = r"C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\Raw\agmarknet_data new.xlsx"
 try:
     """Loads the data from Excel file."""
     df = pd.read_excel(data_file_path)
@@ -97,7 +97,7 @@ plt.xlabel('Date')
 plt.ylabel('Price')
 plt.legend()
 plt.savefig(os.path.join(plot_dir, 'weekly_prices.png'))
-plt.show()
+logger.info("Plotted Min, Max and Avg Prices for comparison.")
 plt.close()
 
 print("Selecting Average Price for the analysis")
@@ -110,7 +110,8 @@ df=df.resample('ME').mean() # Monthly resampling
 plt.figure(figsize=(8,5))
 sns.boxplot(x=df['Price'])
 plt.title('Boxplot of Prices')
-plt.show()
+plt.savefig(os.path.join(plot_dir, 'Boxplot_of_Prices.png'))
+logger.info("Plotted Boxplot of Prices to check for outliers.")
 plt.figure(figsize=(15,6))
 plt.plot(df['Price'], label='Price', color='blue')
 plt.title('01-Monthly Resampled Average Prices')
@@ -118,7 +119,7 @@ plt.xlabel('Date')
 plt.ylabel('Price')
 plt.legend()
 plt.savefig(os.path.join(plot_dir, '01-Monthly Resampled Average Prices.png'))
-plt.show()
+logger.info("Plotted Monthly Resampled Average Prices.")
 
 #There are not entries between 2012 to 2015
 #So we will consider data from 2016 to till date
@@ -133,7 +134,7 @@ plt.xlabel('Date')
 plt.ylabel('Price')
 plt.legend()
 plt.savefig(os.path.join(plot_dir, '02-Monthly Resampled Average Prices from 2016 onwards.png'))
-plt.show()
+logger.info("Plotted Monthly Resampled Average Prices from 2016 onwards.")
 logger.info(f"Data after filtering from 2016 onwards:\n{df.head()}")
 # Checking for stationarity using ADF test
 
@@ -151,7 +152,7 @@ decomposition = seasonal_decompose(df['Price'], model='additive', period=52)
 decomposition.plot()
 plt.suptitle('Seasonal Decomposition of Prices', fontsize=16)
 plt.savefig(os.path.join(plot_dir, '03-Seasonal Decomposition of Prices.png'))
-plt.show()
+logger.info("Plotted Seasonal Decomposition of Prices.")
 
 #applying log transformation
 df['Price'] = np.log(df['Price'])
@@ -162,6 +163,6 @@ plt.xlabel('Date')
 plt.ylabel('Log Price')
 plt.legend()    
 plt.savefig(os.path.join(plot_dir, ' 03-Monthly Log Transformed Resampled Average Prices from 2016 onwards.png'))
-plt.show()
-df.to_csv(r"C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\preprocessed_data.csv")
+logger.info("Plotted Monthly Log Transformed Resampled Average Prices from 2016 onwards.")
+df.to_csv(r"C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\Preprocessed\preprocessed_data.csv")
 logger.info("Preprocessed data saved to 'preprocessed_data.csv'.")
