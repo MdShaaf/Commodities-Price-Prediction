@@ -36,3 +36,15 @@
 2025-10-22 15:05:24,492 - Forecasting.log - INFO - Loading ARIMA model...
 2025-10-22 15:05:24,873 - Forecasting.log - INFO - Model loaded successfully from models\ARIMA_Model.pkl
 2025-10-22 15:05:24,879 - Forecasting.log - INFO - Forecasting completed successfully.
+2025-10-22 17:01:33,853 - Forecasting.log - INFO - Beginning the Forecast.
+2025-10-22 17:01:33,880 - Forecasting.log - INFO - Starting the forecasting process.
+2025-10-22 17:01:33,882 - Forecasting.log - INFO - Loading ARIMA model...
+2025-10-22 17:01:34,593 - Forecasting.log - INFO - Model loaded successfully from models\ARIMA_Model.pkl
+2025-10-22 17:01:34,624 - Forecasting.log - INFO - Forecasting completed successfully.
+2025-10-22 17:03:51,257 - Forecasting.log - INFO - Forecasted prices saved to forecasts/forecasted_prices.csv
+2025-10-22 17:13:52,310 - Forecasting.log - INFO - Beginning the Forecast.
+2025-10-22 17:13:52,335 - Forecasting.log - INFO - Starting the forecasting process.
+2025-10-22 17:13:52,336 - Forecasting.log - INFO - Loading ARIMA model...
+2025-10-22 17:13:52,708 - Forecasting.log - INFO - Model loaded successfully from models\ARIMA_Model.pkl
+2025-10-22 17:13:52,734 - Forecasting.log - INFO - Forecasting completed successfully.
+2025-10-22 17:15:14,874 - Forecasting.log - INFO - Forecasted prices saved to forecasts/forecasted_prices.csv

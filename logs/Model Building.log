@@ -658,3 +658,20 @@ Warnings:
 2025-10-22 15:05:20,771 - Model Building.log - INFO - SARIMA R2 Score of the Sarimax model: -1.05
 2025-10-22 15:05:20,771 - Model Building.log - INFO - ARIMA model performs better than SARIMAX model.
 2025-10-22 15:05:20,776 - Model Building.log - INFO - Model saved at models\ARIMA_Model.pkl
+2025-10-22 17:13:19,865 - Model Building.log - INFO - Model Building initialized.
+2025-10-22 17:13:19,873 - Model Building.log - INFO - Starting model building process.
+2025-10-22 17:13:19,873 - Model Building.log - INFO - First let's Grid Search for best p,d,q and P,D,Q Values...
+2025-10-22 17:13:42,016 - Model Building.log - INFO - Best model parameters: (1, 0, 1) Seasonal order: (2, 0, 0, 12)
+2025-10-22 17:13:42,382 - Model Building.log - INFO - ARIMA model fitted and plotted.
+2025-10-22 17:13:42,383 - Model Building.log - INFO - Evaluating the model...
+2025-10-22 17:13:42,389 - Model Building.log - INFO - MSE of the Arima model: 0.06
+2025-10-22 17:13:42,389 - Model Building.log - INFO - MAE of the Arima model: 0.16
+2025-10-22 17:13:42,390 - Model Building.log - INFO - R2 Score of the Arima model: 0.80
+2025-10-22 17:13:42,391 - Model Building.log - INFO - Now let's try SARIMA model...
+2025-10-22 17:13:43,112 - Model Building.log - INFO - SARIMA model fitted and plotted.
+2025-10-22 17:13:43,112 - Model Building.log - INFO - Evaluating the SARIMA model...
+2025-10-22 17:13:43,119 - Model Building.log - INFO - SARIMA MSE of the Sarimax model: 0.59
+2025-10-22 17:13:43,120 - Model Building.log - INFO - SARIMA MAE of the Sarimax model: 0.23
+2025-10-22 17:13:43,120 - Model Building.log - INFO - SARIMA R2 Score of the Sarimax model: -1.05
+2025-10-22 17:13:43,122 - Model Building.log - INFO - ARIMA model performs better than SARIMAX model.
+2025-10-22 17:13:43,137 - Model Building.log - INFO - Model saved at models\ARIMA_Model.pkl

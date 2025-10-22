@@ -36,10 +36,10 @@ logger.addHandler(console_handler)
 logger.addHandler(file_handler)
 
 #checking if the data file already exists
-file_name = r"C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\Raw\agmarknet_data new.xlsx"
+file_name = r"C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\Raw\agmarknet_data.xlsx"
 if os.path.exists(file_name):
     print(f"Data File  already exists. Exiting to avoid overwriting.")
-    # exit()
+    exit()
 else:
     print(f"File '{file_name}' does not exist. Proceeding with web scraping.")   
     #IF NOT, continue with the web scraping process
@@ -124,6 +124,6 @@ else:
    
     logger.info("Data extraction complete.")
     # Export to Excel
-    df.to_excel(r"C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\Raw\agmarknet_data new.xlsx", index=False)
+    df.to_excel(r"C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\Raw\agmarknet_data.xlsx", index=False)
 
     print("✅ Data exported to agmarknet_data.xlsx")

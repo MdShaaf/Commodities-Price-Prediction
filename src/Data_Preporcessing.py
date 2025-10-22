@@ -33,7 +33,7 @@ logger.addHandler(file_handler)
 logger.info("Data Preprocessing module initialized.")
 
 #Reading the data
-data_file_path = r"C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\Raw\agmarknet_data new.xlsx"
+data_file_path = r"C:\Users\Shaaf\Desktop\Data Science\Practice Projects\Agriculture Price Prediction\Data\Raw\agmarknet_data.xlsx"
 try:
     """Loads the data from Excel file."""
     df = pd.read_excel(data_file_path)

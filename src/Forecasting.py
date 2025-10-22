@@ -16,6 +16,8 @@ os.makedirs(log_dir, exist_ok=True)
 plot_dir = 'plots'
 os.makedirs(plot_dir, exist_ok=True)
 
+output_dir = 'Outs'
+os.makedirs(output_dir, exist_ok=True)
 # logging configuration
 logger = logging.getLogger('Forecasting.log')
 logger.setLevel('DEBUG')
@@ -128,7 +130,8 @@ def forecast_prices(data, steps=30):
         )
 
         fig.show()
-        
+        forecast_df.to_csv(os.path.join(output_dir, 'forecasted_prices.csv'))
+        logger.info("Forecasted prices saved to forecasts/forecasted_prices.csv")
         return forecast_df
 
     except Exception as e:
